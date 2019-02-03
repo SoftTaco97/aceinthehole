@@ -1,8 +1,11 @@
 <?php include_once('head.php'); ?>
 <body>
+
     <!-- HEADER STARTS HERE-->
     <header> 
+
         <?php include_once('nav.php'); ?>
+
         <!-- .container-fluid -->
         <section class="container-fluid">
             <!-- .row -->
@@ -44,3 +47,5 @@
         <!-- /.container-fluid -->
     </header>
     <!-- HEADER ENDS HERE -->
+
+    

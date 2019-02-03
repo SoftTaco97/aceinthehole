@@ -17,6 +17,7 @@ body{
 }
 
 header{
+    margin-top: 2.8em;
     section.container-fluid {
         div.row {
             #slider {
@@ -32,11 +33,80 @@ header{
             }
         }
     }
+    nav{
+        background-color: @lightColor2;
+        .navButton, .weatherButton{
+            .borderRadiusandbgColor(5px, @lightColor1);
+            color: @color1;
+        }
+        #navbarNav, #navbarWeather {
+            width: 100%;
+            padding: 1em;
+            .borderRadiusandbgColor(5px, @color1);
+            margin-top: 1em;
+        }
+        #navbarNav{
+            text-align: center;
+        }
+        .active {
+            .borderRadiusandbgColor(5px, @lightColor2);
+        }
+    }
 }
 
-main{}
+main{
+    section{
+        padding-top: 1em;
+        .row {
+            div {
+                width: 80%;
+                margin-left: 10%;
+                h2{
+                    padding: 1em 1em .5em 1em;
+                    border-bottom: 1px solid lightgrey;
+                }
+                p {
+                    padding: 1em;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
 
-footer{}
+footer{
+    background-color: @lightColor2;
+    section{
+        .row{
+            .col-sm-3 {
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                .borderRadiusandbgColor(5px, @lightColor1);
+                color: @color1;
+                padding: 1em;
+                &:nth-of-type(2){
+                    i{
+                        font-size: 175%;
+                        padding-left: .5em;
+                        padding-right: .5em;
+                    }
+                }
+                ul {
+                    li{
+                        a {
+                            color: @color1;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* Tablet Styles */
 @media only screen and (min-width: 481px){

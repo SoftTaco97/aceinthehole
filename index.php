@@ -1,12 +1,13 @@
     <?php include_once('includes/header.php'); ?>
-    <!-- MAIN STARTS HERE -->
+<!-- MAIN STARTS HERE -->
     <main>
-        <!-- #abtEvt -->
-        <section id="abtEvt" class="container-fluid">
+        <!-- .container-fluid -->
+        <section class="container-fluid">
             <!-- .row -->
             <div class="row">
                 <!-- .col-xs-10 -->
-                <div class="col-xs-10 offset-md-1">
+                <div class="col-xs-10">
+                    <h2 class="text-center">H2 Heading</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Integer porta nunc id leo cursus, sit amet tristique metus faucibus. 
@@ -22,11 +23,11 @@
                         imperdiet eu pellentesque non, consequat id mi.
                     </p>
                 </div>
-                <!-- /.col-xs-10 -->
+                <!-- .col-xs-10 -->
             </div>
             <!-- /.row -->
         </section>
-        <!-- /#abtEvt -->
+        <!-- /.container-fluid -->
     </main>
     <!-- MAIN ENDS HERE -->
     <?php include_once('includes/footer.php'); ?>
