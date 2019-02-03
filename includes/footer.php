@@ -12,8 +12,6 @@
                     <p class="text-center">
                         paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text 
                         paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text
-                        paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text
-                        paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text
                     </p>
                 </div>
                 <!-- /.col-sm-3 -->
@@ -25,7 +23,7 @@
                 </div>
                 <!-- /.col-sm-3 -->
                 <!-- .col-sm-3 -->
-                <div class="col-sm-3 text-center">
+                <div class="col-sm-3 text-center animateBlock left notAnimated">
                     <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -45,6 +43,13 @@
                     </ul>
                 </div>
                 <!-- /.col-sm-3 -->
+            </div>
+            <!-- /.row -->
+            <!-- .row -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-center">H2 Heading <?php echo date("Y"); ?> </h2>
+                </div>
             </div>
             <!-- /.row -->
         </section>

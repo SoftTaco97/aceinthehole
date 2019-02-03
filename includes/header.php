@@ -14,14 +14,17 @@
                 <div id="slider">
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://via.placeholder.com/1920x750" alt="First slide">
+                            <div class="carousel-item active imageOne">
+                                <h1>H1 Heading</h1>
+                                <a href="#" class="btn btn-primary cta">Call To Action Button</a>
                             </div>
-                            <div class="carousel-item">
-                            <img class="d-block w-100" src="https://via.placeholder.com/1920x750" alt="Second slide">
+                            <div class="carousel-item imageTwo">
+                                <h1>H1 Heading</h1>
+                                <a href="#" class="btn btn-primary cta">Call To Action Button</a>
                             </div>
-                            <div class="carousel-item">
-                            <img class="d-block w-100" src="https://via.placeholder.com/1920x750" alt="Third slide">
+                            <div class="carousel-item imageThree">
+                                <h1>H1 Heading</h1>
+                                <a href="#" class="btn btn-primary cta">Call To Action Button</a>
                             </div>
                         </div>
                     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -38,7 +41,8 @@
 
                 <!-- #hero -->
                 <div id="hero" class="col-xs-12">
-                    <img src="https://via.placeholder.com/700x300">
+                    <h1>H1 Heading</h1>
+                    <a href="#" class="btn btn-primary cta">Call To Action Button</a>
                 </div>
                 <!-- /#hero -->
             </div>
