@@ -30,6 +30,21 @@
         <section id="weather" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarWeather">
                 <ul class="navbar-nav weather">
+                    <li>
+                        Day 1 Weather
+                    </li>
+                    <li>
+                        Day 2 Weather
+                    </li>
+                    <li>
+                        Day 3 Weather
+                    </li>
+                    <li>
+                        Day 4 Weather
+                    </li>
+                    <li>
+                        Day 5 Weather
+                    </li>
                 </ul>
             </div>
         </section>

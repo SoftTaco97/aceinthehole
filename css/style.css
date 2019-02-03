@@ -21,6 +21,12 @@ body {
 header section.container-fluid div.row #slider {
   display: none;
 }
+header section.container-fluid div.row #slider img {
+  width: 100%;
+}
+header section.container-fluid div.row #hero img {
+  width: 100%;
+}
 /* Tablet Styles */
 @media only screen and (min-width: 481px) {
   header section.container-fluid div.row div#slider {

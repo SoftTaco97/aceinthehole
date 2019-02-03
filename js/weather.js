@@ -1,8 +1,8 @@
-$(function(){
+/* $(function(){
     let weatherObject;
     function weatherCall() {
         let xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&appid=e07d17f9691dc3fc3cf88db359501d0c', true);
+        xhr.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&cnt=40&appid=e07d17f9691dc3fc3cf88db359501d0c', true);
         xhr.send();
         xhr.onreadystatechange = function(){
             if (this.readyState === this.DONE){
@@ -31,9 +31,11 @@ $(function(){
         let weather = value[0].weather[0].main;
         let date;
         value.forEach(function(day){
-            date = day.dt_txt.slice(0, 10);
-            maxTemp = Math.max(day.main.temp_max, maxTemp);
-            minTemp = Math.min(day.main.temp_min, minTemp);
+            if(typeof day !== 'undefined'){
+                date = day.dt_txt.slice(0, 10);
+                maxTemp = Math.max(day.main.temp_max, maxTemp);
+                minTemp = Math.min(day.main.temp_min, minTemp);
+            }
         });
         return ['Date: ' + date, 'High: ' + maxTemp, 'Low: ' + minTemp, 'Weather: ' + weather];    
     }
@@ -58,4 +60,4 @@ $(function(){
         weatherBox.appendChild(day);
     }
     weatherCall();
-});
+}); */
