@@ -14,5 +14,20 @@ Date: 2/1/2018
 */
 /* Parametric mixins */
 /* mobile styles */
+body {
+  font-size: 16px;
+  font-weight: normal;
+}
+header section.container-fluid div.row #slider {
+  display: none;
+}
 /* Tablet Styles */
+@media only screen and (min-width: 481px) {
+  header section.container-fluid div.row div#slider {
+    display: block;
+  }
+  header section.container-fluid div.row div#hero {
+    display: none;
+  }
+}
 /* Desktop Styles */

@@ -11,9 +11,20 @@ Date: 2/1/2019
 
 /* mobile styles */
 
-body{}
+body{
+    font-size: 16px;
+    font-weight: normal;
+}
 
-header{}
+header{
+    section.container-fluid {
+        div.row {
+            #slider {
+                display: none;
+            }
+        }
+    }
+}
 
 main{}
 
@@ -22,7 +33,20 @@ nav{}
 footer{}
 
 /* Tablet Styles */
-@media only screen and (min-width: 481px){}
+@media only screen and (min-width: 481px){
+    header {
+        section.container-fluid {
+            div.row{
+                div#slider {
+                    display: block;
+                }
+                div#hero {
+                    display: none;
+                }
+            }
+        }
+    }
+}
 
 /* Desktop Styles */
 @media only screen and (min-width: 1025px) {}
