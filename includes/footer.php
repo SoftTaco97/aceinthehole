@@ -6,23 +6,22 @@
         <section class="container-fluid">
             <!-- .row -->
             <div class="row">
-                <!-- .col-sm-3 -->
-                <div class="col-sm-3">
+                <!-- .col -->
+                <div class="col-sm-3 offset-md-1 animateBlock left notAnimated">
                     <h2 class="text-center">H2 Heading</h2>
                     <p class="text-center">
                         paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text 
-                        paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text
                     </p>
                 </div>
-                <!-- /.col-sm-3 -->
-                <!-- .col-sm-3 -->
-                <div class="col-sm-3 text-center">
+                <!-- /.col -->
+                <!-- .col -->
+                <div class="col-sm-4 text-center animateBlock left notAnimated">
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-twitter-square"></i>
                     <i class="fab fa-instagram"></i>
                 </div>
-                <!-- /.col-sm-3 -->
-                <!-- .col-sm-3 -->
+                <!-- /.col -->
+                <!-- .col -->
                 <div class="col-sm-3 text-center animateBlock left notAnimated">
                     <ul class="navbar-nav">
                             <li class="nav-item">
@@ -42,7 +41,7 @@
                             </li>
                     </ul>
                 </div>
-                <!-- /.col-sm-3 -->
+                <!-- /.col -->
             </div>
             <!-- /.row -->
             <!-- .row -->

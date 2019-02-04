@@ -41,8 +41,8 @@
 
                 <!-- #hero -->
                 <div id="hero" class="col-xs-12">
-                    <h1>H1 Heading</h1>
-                    <a href="#" class="btn btn-primary cta">Call To Action Button</a>
+                    <h1 class="animateBlock notAnimated left">H1 Heading</h1>
+                    <a href="#" class="btn btn-primary cta animateBlock notAnimated right">Call To Action Button</a>
                 </div>
                 <!-- /#hero -->
             </div>

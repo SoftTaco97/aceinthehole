@@ -16,7 +16,7 @@ function animateMe(elem) {
   var winBottom = winTop + $(window).height();
   var elemTop = $(elem).offset().top; 
   var elemBottom = elemTop + $(elem).height();
-  if ((elemBottom <= (winBottom)) && (elemTop >= (winTop))) {
+  if ((elemBottom <= (winBottom + 300)) && (elemTop >= (winTop - 300))) {
     $(elem).removeClass('notAnimated').addClass('animated');
   }
 }
