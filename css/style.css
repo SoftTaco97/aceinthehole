@@ -34,15 +34,17 @@ header section.container-fluid div.row .cta {
 header section.container-fluid div.row #slider {
   display: none;
 }
-header section.container-fluid div.row #hero {
+header section.container-fluid div.row #hero,
+header section.container-fluid div.row #alt {
   width: 100%;
   height: 400px;
-  background-image: url('https://via.placeholder.com/700x400');
+  background-image: url('https://via.placeholder.com/1920x400');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-header section.container-fluid div.row #hero h1 {
+header section.container-fluid div.row #hero h1,
+header section.container-fluid div.row #alt h1 {
   width: 100%;
   text-align: center;
 }
@@ -175,6 +177,9 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
   header section.container-fluid div.row div#hero {
     display: none;
   }
+  header section.container-fluid div.row div#alt h1 {
+    margin-top: 30%;
+  }
   footer section.container-fluid {
     padding: 0;
   }
@@ -209,6 +214,9 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
   }
   header section.container-fluid div.row div#slider {
     margin-top: 0;
+  }
+  header section.container-fluid div.row div#alt h1 {
+    margin-top: 10%;
   }
   header nav {
     margin-top: 0;

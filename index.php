@@ -1,4 +1,4 @@
-    <?php include_once('includes/header.php'); ?>
+    <?php include_once('includes/header_home.php'); ?>
 <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
