@@ -146,16 +146,8 @@ footer{
                 div#slider {
                     display: block;
                     width: 100%;
-                    .imageOne{
+                    .imageOne, .imageTwo, .imageThree{
                         .heroImage('https://via.placeholder.com/1920x750'); 
-                        height: 600px;
-                    }
-                    .imageTwo{
-                        .heroImage('https://via.placeholder.com/1920x750');
-                        height: 600px;
-                    }
-                    .imageThree{
-                        .heroImage('https://via.placeholder.com/1920x750');
                         height: 600px;
                     }
                 }
@@ -211,8 +203,12 @@ footer{
                 }
                 div#slider {
                     margin-top: 0;
+                    .imageOne, .imageTwo, .imageThree {
+                        background-attachment: fixed;
+                    }
                 }
                 div#alt {
+                    background-attachment: fixed;
                     h1 {
                         margin-top: 10%;
                     }
