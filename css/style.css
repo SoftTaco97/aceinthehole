@@ -30,6 +30,8 @@ header section.container-fluid div.row h1 {
 header section.container-fluid div.row .cta {
   font-size: 75%;
   margin-top: 1em;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 header section.container-fluid div.row #slider {
   display: none;
@@ -49,7 +51,8 @@ header section.container-fluid div.row #alt h1 {
   text-align: center;
 }
 header nav {
-  background-color: #ff6666;
+  background-color: #FFF;
+  border-bottom: solid 0.5em #ff0000;
 }
 header nav .navButton,
 header nav .weatherButton {
@@ -58,22 +61,30 @@ header nav .weatherButton {
   -o-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background-color: #ff3333;
+  background-color: #ff0000;
   color: #FFF;
 }
 header nav #navbarNav,
 header nav #navbarWeather {
   padding: .5em;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
   background-color: #FFF;
   margin-top: .5em;
 }
+header nav #navbarNav a,
+header nav #navbarWeather a {
+  color: #ff0000;
+}
 header nav #navbarNav {
   text-align: center;
+  -webkit-box-shadow: 0 5px 18px #d3d3d3;
+  -moz-box-shadow: 0 5px 18px #d3d3d3;
+  box-shadow: 0 5px 18px #d3d3d3;
+  background-color: #FFF;
 }
 header nav .active {
   -moz-border-radius: 5px;
@@ -81,8 +92,8 @@ header nav .active {
   -o-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background-color: #ff6666;
-  color: white;
+  background-color: #ff0000;
+  color: #FFF !important;
 }
 header nav #logo {
   display: none;
@@ -106,13 +117,14 @@ main section .row div p {
 footer {
   margin-top: 1em;
   padding-top: 1em;
-  background-color: #ff6666;
+  border-top: solid 0.5em #ff0000;
+  background-color: #FFF;
 }
 footer section.container-fluid .row .col-sm-3,
 footer section.container-fluid .row .col-sm-4 {
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #FFF;
+  color: #000;
   padding: 1em;
 }
 footer section.container-fluid .row .col-sm-3:nth-of-type(2) i,
@@ -128,14 +140,14 @@ footer section.container-fluid .row .col-sm-4:nth-of-type(2) i:hover {
 }
 footer section.container-fluid .row .col-sm-3 ul li a,
 footer section.container-fluid .row .col-sm-4 ul li a {
-  color: #FFF;
+  color: #000;
 }
 footer section.container-fluid .row .col-sm-3 ul li a:hover,
 footer section.container-fluid .row .col-sm-4 ul li a:hover {
   text-decoration: underline;
 }
 footer section.container-fluid .row:nth-of-type(2) {
-  background-color: #ff3333;
+  background-color: #ff0000;
 }
 footer section.container-fluid .row:nth-of-type(2) .col-xs-12 {
   margin-left: 0;
@@ -254,7 +266,7 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     -o-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background-color: #ff3333;
+    background-color: #ff0000;
     color: #FFF;
   }
 }
