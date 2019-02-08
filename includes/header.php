@@ -1,10 +1,10 @@
-<?php include_once('head.php'); ?>
+<?php include_once('head.html'); ?>
 <body>
 
     <!-- HEADER STARTS HERE-->
     <header> 
 
-        <?php include_once('nav.php'); ?>
+        <?php include_once('nav.html'); ?>
 
         <!-- .container-fluid -->
         <section class="container-fluid">

@@ -33,6 +33,10 @@ header section.container-fluid div.row .cta {
   background-color: #ff0000;
   border-color: #ff0000;
 }
+header section.container-fluid div.row .cta:hover {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
 header section.container-fluid div.row #slider {
   display: none;
 }
@@ -94,6 +98,9 @@ header nav .active {
   border-radius: 5px;
   background-color: #ff0000;
   color: #FFF !important;
+}
+header nav .active:hover {
+  background-color: #e60000 !important;
 }
 header nav #logo {
   display: none;
@@ -253,6 +260,16 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     padding-left: 1em;
     padding-right: 1em;
   }
+  header nav div.navbar-expand-lg div#navbarNav ul.navbar-nav li a {
+    padding: .5em;
+    transition: all .5s ease;
+    border-radius: 5px;
+  }
+  header nav div.navbar-expand-lg div#navbarNav ul.navbar-nav li a:hover {
+    transition: background-color 0.5s ease;
+    color: #FFF;
+    background-color: #ff3333;
+  }
   header nav #logo {
     text-align: right;
     width: 70%;
@@ -268,5 +285,10 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     border-radius: 5px;
     background-color: #ff0000;
     color: #FFF;
+  }
+  header nav #logo a:hover {
+    transition: all .5s ease;
+    background-color: #e60000;
+    text-decoration: none;
   }
 }

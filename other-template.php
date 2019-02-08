@@ -28,4 +28,4 @@
         <!-- /.container-fluid -->
     </main>
     <!-- MAIN ENDS HERE -->
-    <?php include_once('includes/footer.php'); ?>
+    <?php include_once('includes/footer.html'); ?>

@@ -11,12 +11,12 @@ Date: 2/1/2019
 
 /* mobile styles */
 
-body{
+body {
     font-size: 16px;
     font-weight: normal;
 }
 
-header{
+header {
     margin-top: 2.8em;
     section.container-fluid {
         div.row {
@@ -29,6 +29,10 @@ header{
                 margin-top: 1em;
                 background-color: @color3;
                 border-color: @color3;
+                &:hover {
+                    background-color: darken(@color3, 10%);
+                    border-color: darken(@color3, 10%);
+                }
             }
             #slider {
                 display: none;
@@ -44,10 +48,10 @@ header{
             }
         }
     }
-    nav{
+    nav {
         background-color: @color1;
         border-bottom: solid .5em @color3;
-        .navButton, .weatherButton{
+        .navButton, .weatherButton {
             .borderRadiusandbgColor(5px, @color3);
             color: @color1;
         }
@@ -59,7 +63,7 @@ header{
                 color: @color3;
             }
         }
-        #navbarNav{
+        #navbarNav {
             text-align: center;
             .dropShadow(0, 5px, 18px, #d3d3d3);
             background-color: @color1;
@@ -67,6 +71,9 @@ header{
         .active {
             .borderRadiusandbgColor(5px, @color3);
             color: @color1 !important;
+            &:hover{
+                background-color: darken(@color3, 5%) !important;
+            }
         }
         #logo {
             display: none;
@@ -74,8 +81,8 @@ header{
     }
 }
 
-main{
-    section{
+main {
+    section {
         padding-top: 1em;
         .row {
             div {
@@ -95,7 +102,7 @@ main{
     }
 }
 
-footer{
+footer {
     margin-top: 1em;
     padding-top: 1em;
     border-top: solid .5em @color3;
@@ -107,8 +114,8 @@ footer{
                 margin-bottom: 1em;
                 color: @color2;
                 padding: 1em;
-                &:nth-of-type(2){
-                    i{
+                &:nth-of-type(2) {
+                    i {
                         font-size: 175%;
                         padding-left: .5em;
                         padding-right: .5em;
@@ -119,24 +126,24 @@ footer{
                     }
                 }
                 ul {
-                    li{
+                    li {
                         a {
                             color: @color2;
-                            &:hover{
+                            &:hover {
                                 text-decoration: underline;
                             }
                         }
                     }
                 }
             }
-            &:nth-of-type(2){
+            &:nth-of-type(2) {
                 background-color: @color3;
                 .col-xs-12 {
                     margin-left: 0;
                     padding: 0;
                     width: 100%;
                     color: @color1;
-                    h2{
+                    h2 {
                         text-align: center;
                         padding: .5em;
                     }
@@ -150,11 +157,11 @@ footer{
 @media only screen and (min-width: 481px){
     header {
         section.container-fluid {
-            div.row{
+            div.row {
                 div#slider {
                     display: block;
                     width: 100%;
-                    .imageOne, .imageTwo, .imageThree{
+                    .imageOne, .imageTwo, .imageThree {
                         .heroImage('https://via.placeholder.com/1920x750'); 
                         height: 600px;
                     }
@@ -177,11 +184,11 @@ footer{
                 width: 100%;
                 margin-left: 0;
                 margin-right: 0;
-                .col{
+                .col {
                     margin-top: 1em;
                     margin-bottom: 1em;
-                    &:nth-of-type(2){
-                        i{
+                    &:nth-of-type(2) {
+                        i {
                             font-size: 175%;
                             padding-left: .25em;
                             padding-right: .25em;
@@ -252,6 +259,17 @@ footer{
                        li{
                         padding-left: 1em;
                         padding-right: 1em;
+                        a{
+                            padding: .5em;
+                            transition: all .5s ease;
+                            border-radius: 5px;
+                            &:hover {
+                                transition: background-color .5s ease;
+                                // transition: color .6s ease;
+                                color: @color1;
+                                background-color: lighten(@color3, 10%);
+                            }
+                        }
                        }
                    }
                }
@@ -265,6 +283,11 @@ footer{
                     padding: 1em;
                     .borderRadiusandbgColor(5px, @color3);
                     color: @color1;
+                    &:hover {
+                        transition: all .5s ease;
+                        background-color: darken(@color3, 5%);
+                        text-decoration: none;
+                    }
                }
            }
         }
