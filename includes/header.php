@@ -1,11 +1,6 @@
-<?php include_once('head.html'); ?>
-<body>
-
-    <!-- HEADER STARTS HERE-->
+<!-- HEADER STARTS HERE-->
     <header> 
-
-        <?php include_once('nav.html'); ?>
-
+        <?php include_once('nav.php'); ?>
         <!-- .container-fluid -->
         <section class="container-fluid">
             <!-- .row -->
@@ -21,5 +16,3 @@
         <!-- /.container-fluid -->
     </header>
     <!-- HEADER ENDS HERE -->
-
-    

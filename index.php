@@ -1,5 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <?php include_once('includes/head_tags.php'); ?>
+</head>
+<body>
     <?php include_once('includes/header_home.php'); ?>
-<!-- MAIN STARTS HERE -->
+    <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
         <section class="container-fluid">
@@ -28,4 +34,6 @@
         <!-- /.container-fluid -->
     </main>
     <!-- MAIN ENDS HERE -->
-    <?php include_once('includes/footer.html'); ?>
+    <?php include_once('includes/footer.php'); ?>
+</body>
+</html>
