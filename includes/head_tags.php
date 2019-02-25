@@ -1,4 +1,23 @@
 
+    <?php switch ($_SERVER['REQUEST_URI']) {
+        case '/cas222/':
+            $title = '';
+            break;
+        case '/cas222/register/':
+            $title = 'Registration';
+            break;
+        case '/cas222/events/':
+            $title = 'Events';
+            break;
+        case '/cas222/faq/':
+            $title = 'FAQs';
+            break;
+        case 'cas222/course/':
+            $title = 'Course';
+            break;
+        default:
+            $title = '';
+    } ?>
     <meta charset="utf-8">
     <meta name="author" content="Jared">
     <meta name="description" content="Template for Ace In the Hole Multisport">

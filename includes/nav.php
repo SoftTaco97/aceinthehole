@@ -15,20 +15,21 @@
                 <!-- #navbarNav -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+                        <?php $active = 'active'; ?>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link <?php if($title == '') echo $active; ?>" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link <?php if($title == 'Registration') echo $active; ?>" href="#">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link <?php if($title == 'Events') echo $active; ?>" href="#">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQs</a>
+                            <a class="nav-link <?php if($title == 'FAQs') echo $active; ?>" href="#">FAQs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Course</a>
+                            <a class="nav-link <?php if($title == 'Course') echo $active; ?>" href="#">Course</a>
                         </li>
                     </ul>
                 </div>
