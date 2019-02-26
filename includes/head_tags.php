@@ -35,12 +35,13 @@
     <!-- Font -->
     
     <!-- CSS -->
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="css/helper.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+    <?php $path =  'http://localhost/cas222/site/'; ?>
+    <link href="<?php echo $path . 'css/reset.css'; ?>" rel="stylesheet">
+    <link href="<?php echo $path . 'css/helper.css'; ?>" rel="stylesheet">
+    <link href="<?php echo $path . 'css/animate.css'; ?>" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo $path . 'css/style.css'; ?>" rel="stylesheet">
 
     <!-- TITLE -->
     <title>Ace In the Hole Multisport</title>

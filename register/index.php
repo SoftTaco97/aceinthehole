@@ -4,7 +4,7 @@
     <?php include_once('../includes/head_tags.php'); ?>
 </head>
 <body>
-    <?php include_once('../includes/header_home.php'); ?>
+    <?php include_once('../includes/header.php'); ?>
     <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
