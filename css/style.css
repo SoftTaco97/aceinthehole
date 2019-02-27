@@ -131,6 +131,15 @@ main section .row div p {
   padding: 1em;
   line-height: 1.5;
 }
+main #faq h3 {
+  padding: .2em;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+main #faq p {
+  padding: 1em;
+  padding-bottom: 0;
+}
 footer {
   margin-top: 1em;
   padding-top: 1em;
