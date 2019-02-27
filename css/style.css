@@ -43,16 +43,24 @@ header section.container-fluid div.row #slider {
 header section.container-fluid div.row #hero,
 header section.container-fluid div.row #alt {
   width: 100%;
-  height: 400px;
-  background-image: url('https://via.placeholder.com/1920x400');
+  height: 350px;
+  background-image: url('../images/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 header section.container-fluid div.row #hero h1,
 header section.container-fluid div.row #alt h1 {
-  width: 100%;
+  padding: .5em;
   text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 header nav {
   background-color: #FFF;
@@ -117,6 +125,14 @@ main section .row div h2 {
 main section .row div p {
   padding: 1em;
   line-height: 1.5;
+}
+main section .row .card {
+  margin: 0;
+  width: 100%;
+}
+main section .row .card .btn.btn-primary {
+  background-color: #ff0000;
+  border: none;
 }
 footer {
   margin-top: 1em;
@@ -205,6 +221,13 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     text-align: left;
   }
 }
+/* Bigger Tablets */
+@media only screen and (min-width: 768px) {
+  main section .row .card {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 /* Desktop Styles */
 @media only screen and (min-width: 1024px) {
   body {
@@ -290,5 +313,8 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     transition: all .5s ease;
     background-color: #e60000;
     text-decoration: none;
+  }
+  main .card form {
+    padding: 2em;
   }
 }

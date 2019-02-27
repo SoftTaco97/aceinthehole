@@ -16,10 +16,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link <?php if($_SERVER['REQUEST_URI'] != '/cas222/form/') echo 'active'; ?>" href="#">Register</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Events</a>
@@ -30,6 +30,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Course</a>
                         </li>
+                        <?php if($_SERVER['REQUEST_URI'] == "/cas222/form/"): ?>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact  <span class="sr-only">(current)</span></a>
+                        </li>
+                        <? endif; ?>
                     </ul>
                 </div>
                 <!-- /#navbarNav -->

@@ -39,11 +39,14 @@ header {
             }
             #hero, #alt {
                 width: 100%;
-                height: 400px;
-                .heroImage('https://via.placeholder.com/1920x400');
+                height: 350px;
+                .heroImage('../images/hero.jpg');
                 h1 {
-                    width: 100%;
+                    padding: .5em;
                     text-align: center;
+                    color: #fff;
+                    text-transform: uppercase;
+                    .borderRadiusandbgColor(5px, rgba(0, 0, 0, 0.5));
                 }
             }
         }
@@ -95,6 +98,14 @@ main {
                 p {
                     padding: 1em;
                     line-height: 1.5;
+                }
+            }
+            .card {
+                margin: 0;
+                width: 100%;
+                .btn.btn-primary{
+                    background-color: @color3;
+                    border: none;
                 }
             }
         }
@@ -176,6 +187,7 @@ footer {
             }
         }
     }
+
     footer {
         section.container-fluid {
             padding: 0;
@@ -203,6 +215,19 @@ footer {
     }
 }
 
+/* Bigger Tablets */
+@media only screen and (min-width: 768px){
+    main {
+        section {
+            .row {
+                .card {
+                    width: 80%;
+                    margin-left: 10%;
+                }
+            }
+        }
+    }
+}
 /* Desktop Styles */
 @media only screen and (min-width: 1024px) {
     body {
@@ -290,6 +315,13 @@ footer {
                     }
                }
            }
+        }
+    }
+    main {
+        .card {
+            form {
+                padding: 2em;
+            }
         }
     }
 }
