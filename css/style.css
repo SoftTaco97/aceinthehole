@@ -131,14 +131,29 @@ main section .row div p {
   padding: 1em;
   line-height: 1.5;
 }
-main #faq h3 {
-  padding: .2em;
-  border-bottom: 1px solid lightgrey;
-  width: 100%;
+main #faq {
+  padding: 1em;
 }
 main #faq p {
   padding: 1em;
   padding-bottom: 0;
+}
+main #faq .ui-accordion-header {
+  background-color: #FFF !important;
+  color: #ff0000 !important;
+  font-size: 125%;
+  border: none !important;
+  padding: .2em;
+  border-bottom: 1px solid #ff0000 !important;
+}
+main #faq .ui-widget-content {
+  border: none !important;
+}
+main #faq .ui-accordion-header-active {
+  background-color: #ff0000 !important;
+  text-decoration: none;
+  color: #FFF !important;
+  border: 1px solid #ff0000;
 }
 footer {
   margin-top: 1em;
@@ -351,5 +366,14 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     transition: all .5s ease;
     background-color: #e60000;
     text-decoration: none;
+  }
+  main #faq {
+    padding: 2em;
+  }
+  main #faq h3 {
+    padding: .5em !important;
+  }
+  main #faq p {
+    padding: 4em;
   }
 }

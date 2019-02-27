@@ -2,6 +2,10 @@
 <html>
 <head>
     <?php include_once('../includes/head_tags.php'); ?>
+
+    <!-- jQuery UI -->
+    <link href="<?php echo FULL_PATH . 'css/jquery-ui.min.css'; ?>" rel="stylesheet">
+    <link href="<?php echo FULL_PATH . 'css/jquery-ui.theme.min.css'; ?>" rel="stylesheet">
 </head>
 <body>
     <?php include_once('../includes/header.php'); ?>
@@ -57,11 +61,19 @@
         <!-- /.container-fluid -->
     </main>
     <!-- MAIN ENDS HERE -->
+    <!-- jQuery UI -->
     <?php include_once('../includes/footer.php'); ?>
     <script src="<?php echo FULL_PATH . '/js/jquery-ui.min.js'; ?>"></script>
     <script>
         $(function(){
-            $('#faq').accordion({ heightStyle: "content" });
+            $('#faq').accordion({ 
+                heightStyle: "content",
+                icons: { 
+                    "header": "ui-icon-triangle-1-e", 
+                    "activeHeader": "ui-icon-triangle-1-s" 
+                },
+                animate: 500,
+            });
         });
     </script>
 </body>
