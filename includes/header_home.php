@@ -10,16 +10,16 @@
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active imageOne">
-                                <h1>H1 Heading</h1>
-                                <a href="#" class="btn btn-primary cta">Call To Action Button</a>
+                                <h1>Ace In the Hole Multisport</h1>
+                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
                             </div>
                             <div class="carousel-item imageTwo">
-                                <h1>H1 Heading</h1>
-                                <a href="#" class="btn btn-primary cta">Call To Action Button</a>
+                                <h1>Ace In the Hole Multisport</h1>
+                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
                             </div>
                             <div class="carousel-item imageThree">
-                                <h1>H1 Heading</h1>
-                                <a href="#" class="btn btn-primary cta">Call To Action Button</a>
+                                <h1>Ace In the Hole Multisport</h1>
+                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -36,8 +36,8 @@
 
                 <!-- #hero -->
                 <div id="hero" class="col-xs-12">
-                    <h1 class="animateBlock notAnimated left">H1 Heading</h1>
-                    <a href="#" class="btn btn-primary cta animateBlock notAnimated right">Call To Action Button</a>
+                    <h1 class="animateBlock notAnimated left">Ace In the Hole Multisport</h1>
+                    <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta animateBlock notAnimated right">Register Now!</a>
                 </div>
                 <!-- /#hero -->
             </div>

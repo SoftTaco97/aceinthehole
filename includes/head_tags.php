@@ -1,23 +1,25 @@
 
-    <?php switch ($_SERVER['REQUEST_URI']) {
-        case '/cas222/':
+    <?php 
+        require_once('constants.php');
+
+        switch ($_SERVER['REQUEST_URI']) {
+        case PATH:
             $title = '';
             break;
-        case '/cas222/register/':
+        case PATH . 'register/':
             $title = 'Registration';
             break;
-        case '/cas222/events/':
+        case PATH . 'events/':
             $title = 'Events';
             break;
-        case '/cas222/faq/':
+        case PATH . 'faq/':
             $title = 'FAQs';
             break;
-        case 'cas222/course/':
+        case PATH . 'course/':
             $title = 'Course';
             break;
-        default:
-            $title = '';
-    } ?>
+    } 
+    ?>
     <meta charset="utf-8">
     <meta name="author" content="Jared">
     <meta name="description" content="Template for Ace In the Hole Multisport">
@@ -35,15 +37,14 @@
     <!-- Font -->
     
     <!-- CSS -->
-    <?php $path =  'http://localhost/cas222/site/'; ?>
-    <link href="<?php echo $path . 'css/reset.css'; ?>" rel="stylesheet">
-    <link href="<?php echo $path . 'css/helper.css'; ?>" rel="stylesheet">
-    <link href="<?php echo $path . 'css/animate.css'; ?>" rel="stylesheet">
+    <link href="<?php echo FULL_PATH . 'css/reset.css'; ?>" rel="stylesheet">
+    <link href="<?php echo FULL_PATH . 'css/helper.css'; ?>" rel="stylesheet">
+    <link href="<?php echo FULL_PATH . 'css/animate.css'; ?>" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo $path . 'css/style.css'; ?>" rel="stylesheet">
+    <link href="<?php echo FULL_PATH . 'css/style.css'; ?>" rel="stylesheet">
 
     <!-- TITLE -->
-    <title>Ace In the Hole Multisport</title>
+    <title><?php echo ($title != '')? $title: 'Ace In the Hole Multisport'; ?></title>
 
 

@@ -25,19 +25,29 @@
                 <div class="col-sm-3 text-center animateBlock left notAnimated">
                     <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link <?php if($title == '') echo ACTIVE; ?>" href="<?php echo FULL_PATH; ?>">
+                                    Home <?php if($title == '') echo '<span class="sr-only">(current)</span>'; ?>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link <?php if($title == 'Registration') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'register/'; ?>">
+                                    Register <?php if($title == 'Registration') echo '<span class="sr-only">(current)</span>'; ?>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Events</a>
+                                <a class="nav-link <?php if($title == 'Events') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'events/'; ?>">
+                                    Events <?php if($title == 'Events') echo '<span class="sr-only">(current)</span>'; ?>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">FAQs</a>
+                                <a class="nav-link <?php if($title == 'FAQs') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'faq/'; ?>">
+                                    FAQs <?php if($title == 'FAQs') echo '<span class="sr-only">(current)</span>'; ?>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Course</a>
+                                <a class="nav-link <?php if($title == 'Course') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'course/'; ?>">
+                                    Course <?php if($title == 'Course') echo '<span class="sr-only">(current)</span>'; ?>
+                                </a>
                             </li>
                     </ul>
                 </div>
@@ -59,7 +69,7 @@
     <!-- JavaScript Links -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo $path . 'js/animate.js'; ?>"></script>
-    <script src="<?php echo $path . 'js/weather.js'; ?>"></script>
-    <script src="<?php echo $path . 'js/script.js'; ?>"></script>
+    <script src="<?php echo FULL_PATH . 'js/animate.js'; ?>"></script>
+    <script src="<?php echo FULL_PATH . 'js/weather.js'; ?>"></script>
+    <script src="<?php echo FULL_PATH . 'js/script.js'; ?>"></script>
     

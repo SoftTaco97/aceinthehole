@@ -15,28 +15,37 @@
                 <!-- #navbarNav -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <?php $active = 'active'; ?>
                         <li class="nav-item">
-                            <a class="nav-link <?php if($title == '') echo $active; ?>" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link <?php if($title == '') echo ACTIVE; ?>" href="<?php echo FULL_PATH; ?>">
+                                Home <?php if($title == '') echo '<span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if($title == 'Registration') echo $active; ?>" href="#">Register</a>
+                            <a class="nav-link <?php if($title == 'Registration') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'register/'; ?>">
+                                Register <?php if($title == 'Registration') echo '<span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if($title == 'Events') echo $active; ?>" href="#">Events</a>
+                            <a class="nav-link <?php if($title == 'Events') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'events/'; ?>">
+                                Events <?php if($title == 'Events') echo '<span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if($title == 'FAQs') echo $active; ?>" href="#">FAQs</a>
+                            <a class="nav-link <?php if($title == 'FAQs') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'faq/'; ?>">
+                                FAQs <?php if($title == 'FAQs') echo '<span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if($title == 'Course') echo $active; ?>" href="#">Course</a>
+                            <a class="nav-link <?php if($title == 'Course') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'course/'; ?>">
+                                Course <?php if($title == 'Course') echo '<span class="sr-only">(current)</span>'; ?>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <!-- /#navbarNav -->
                 <!-- #logo -->
                 <div id="logo">
-                    <a href="#">Ace In the Hole</a>
+                    <a href="<?php echo FULL_PATH; ?>">Ace In the Hole</a>
                 </div>
             </div>
             <!-- /.navbar-expand-lg -->
