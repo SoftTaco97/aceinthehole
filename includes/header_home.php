@@ -10,15 +10,15 @@
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active imageOne">
-                                <h1>Ace In the Hole Multisport</h1>
+                                <h1 class="display-4">Ace In the Hole Multisport</h1>
                                 <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
                             </div>
                             <div class="carousel-item imageTwo">
-                                <h1>Ace In the Hole Multisport</h1>
+                                <h1 class="display-4">Ace In the Hole Multisport</h1>
                                 <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
                             </div>
                             <div class="carousel-item imageThree">
-                                <h1>Ace In the Hole Multisport</h1>
+                                <h1 class="display-4">Ace In the Hole Multisport</h1>
                                 <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
                             </div>
                         </div>

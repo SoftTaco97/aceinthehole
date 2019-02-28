@@ -5,22 +5,33 @@
 </head>
 <body>
     <?php include_once('includes/header_home.php'); ?>
+
     <!-- MAIN STARTS HERE -->
     <main>
+
         <!-- .container-fluid -->
         <section class="container-fluid">
+
             <!-- .row -->
             <div class="row">
-                <!-- .col-xs-10 -->
-                <div class="col-xs-10">
-                    <h2 class="text-center animateBlock notAnimated left">About The Event</h2>
-                    <p class="animateBlock notAnimated left">
-                    The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation. 
 
-                    There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!
-                    </p>
+                <!-- .col-xs-10 --> 
+                <div class="col-xs-10">
+
+                    <!-- .jumbotron -->
+                    <div class="jumbotron">
+                        <h2 class="display-4 animateBlock notAnimated left">About the Event</h2>
+                        <p class="lead animateBlock notAnimated left">The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.</p>
+                        <p class="animateBlock notAnimated left">There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!</p>
+                        <p class="lead animateBlock notAnimated left">
+                            <a class="btn btn-primary btn-lg" href="<?php echo FULL_PATH . 'about/'; ?>" role="button">Learn More</a>
+                        </p>
+                    </div>
+                    <!-- /.jumbotron -->
+
                 </div>
-                <!-- .col-xs-10 -->
+                <!-- /.col-xs-10 -->
+
             </div>
             <!-- /.row -->
 
@@ -29,8 +40,10 @@
 
                 <!-- .col-lg-4 -->
                 <div class="col-lg-4 offset-lg-1 text-center card card-body">
-
-                    <h2 class="text-center animateBlock notAnimated left">Contact</h2>
+                    
+                    <h2 class="display-4 text-center animateBlock notAnimated left">
+                        Contact
+                    </h2>
 
                     <!-- form -->
                     <form class="animateBlock notAnimated left" id="contactForm">
@@ -59,7 +72,7 @@
                 <!-- /.col-lg-4 -->
 
                 <!-- .col-lg-3 -->
-                <div class="col-md-3 fb animateBlock notAnimated left">
+                <div class="col-md-3 fb animateBlock notAnimated left text-center">
                     <!-- https://www.facebook.com/cas222cascade/ -->
                     <div class="text-center">
                         <iframe style="border: none; overflow: scroll;" 
@@ -76,23 +89,21 @@
                 <!-- /.col-lg-3 -->
 
                 <!-- .col-lg-3 -->
-                <div class="col-md-3 twit animateBlock notAnimated left">
-                    <div class="text-center">
-                        <a class="twitter-timeline" 
-                        data-width="350" 
-                        data-height="650" 
-                        data-theme="light" 
-                        data-link-color="#E81C4F"
-                        href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">
-                        Tweets by pcccas222
-                        </a> 
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
+                <div class="col-md-3 twit animateBlock notAnimated left text-center">
+                    <a class="twitter-timeline" 
+                    data-width="350" 
+                    data-height="650" 
+                    data-theme="light" 
+                    data-link-color="#E81C4F"
+                    href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">
+                    Tweets by pcccas222
+                    </a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
                 <!-- /.col-lg-3 -->
 
-            </div>
-            <!-- /.row -->
+                </div>
+                <!-- /.row -->
 
         </section>
         <!-- /.container-fluid -->

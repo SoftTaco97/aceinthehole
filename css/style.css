@@ -122,10 +122,21 @@ header nav #logo {
 main section {
   padding-top: 1em;
 }
+main section .row div .jumbotron {
+  background-color: #FFF;
+}
+main section .row div .jumbotron .btn {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+main section .row div .jumbotron .btn:hover {
+  background-color: #e60000 !important;
+}
 main section .row div h2 {
   padding: 1em 1em .5em 1em;
   border-bottom: 1px solid lightgrey;
   width: 100%;
+  font-size: 175%;
 }
 main section .row div p {
   padding: 1em;
@@ -140,8 +151,11 @@ main section .row .col-sm-10 {
   margin-left: 0;
 }
 main section .row .label {
-  width: auto;
+  width: 100%;
   margin-left: none;
+}
+main section .row .paragraph {
+  padding: 1em;
 }
 main section .row .fb {
   padding-left: .5em;
@@ -149,6 +163,10 @@ main section .row .fb {
   margin-top: 1em;
   width: auto;
   max-width: 100%;
+}
+main section .row .btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 main #faq {
   padding: 1em;
@@ -317,13 +335,26 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     padding-bottom: 1em;
   }
 }
-/* Bigger Tablet */
+/* Bigger Tablet Styles */
 @media only screen and (min-width: 768px) {
   .mobile {
     display: none;
   }
   .desktop {
     display: block;
+  }
+  main section .row .paragraph {
+    padding: 1em;
+  }
+  main section .row .list-group {
+    margin-top: 2em;
+  }
+  main section .title h2 {
+    padding-bottom: 4em !important;
+  }
+  main section .title .list-group {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1.6em;
   }
 }
 /* Desktop Styles */
@@ -411,6 +442,9 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     transition: all .5s ease;
     background-color: #e60000;
     text-decoration: none;
+  }
+  main section .title h2 {
+    padding-bottom: 4em !important;
   }
   main #faq {
     padding: 2em;

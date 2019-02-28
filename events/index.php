@@ -9,11 +9,11 @@
     <main>
         <!-- .container-fluid -->
         <section class="container-fluid">
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event title">
                 <!-- .col-sm-4 -->
-                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left title">
-                    <h2 class="text-center">
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left">
+                    <h2 class="display-4 text-center">
                         Long Course Triathlon
                     </h2>
                 </div>
@@ -28,13 +28,13 @@
                 </div>
                 <!-- /.col-sm-6 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label mobile">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Long Course - Swim
                     </h2>
                 </div>
@@ -54,19 +54,19 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Long Course - Swim
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Long Course - Bike
                     </h2>
                 </div>
@@ -81,13 +81,13 @@
                 </div>
                 <!-- /.col-sm-6 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label mobile">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Long Course - Run
                     </h2>
                 </div>
@@ -105,19 +105,19 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Long Course - Run
                     </h2>
                 </div>
                 <!-- /.col-sm-4 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event title">
                 <!-- .col-sm-4 -->
-                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left title">
-                    <h2 class="text-center">
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left">
+                    <h2 class="display-4 text-center">
                         Olympic Triathlon
                     </h2>
                 </div>
@@ -132,12 +132,12 @@
                 </div>
                 <!-- /.col-sm-6 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <div class="col-sm-4 notAnimated animateBlock left label mobile">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Olympic - Swim
                     </h2>
                 </div>
@@ -156,19 +156,19 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Olympic - Swim
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Olympic - Bike
                     </h2>
                 </div>
@@ -184,12 +184,12 @@
                 </div>
                 <!-- .col-sm-6 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <div class="col-sm-4 notAnimated animateBlock left label mobile">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Olympic - Run
                     </h2>
                 </div>
@@ -206,19 +206,19 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Olympic - Run
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 offset-md-1 notAnimated animateBlock left label">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Sprint
                     </h2>
                 </div>
@@ -242,13 +242,13 @@
                 </div>
                 <!-- /.col-sm-3 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 notAnimated animateBlock left label mobile">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Try-A-Tri
                     </h2>
                 </div>
@@ -277,19 +277,19 @@
 
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Try-A-Tri
                     </h2>
                 </div>
                 <!-- .col-sm-3-->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 offset-md-1 notAnimated animateBlock left label">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         Half Marathon
                     </h2>
                 </div>
@@ -299,7 +299,7 @@
                 <div class="col-sm-4 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         <span class="mile">Length: 13.1 Miles</span><br>
-                        Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. 
+                        Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crow eventd. 
                         Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. 
                         Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified.
                     </p>
@@ -316,12 +316,12 @@
                 </div>
                 <!-- /.col-sm-3 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
 
-            <!-- .row -->
-            <div class="row">
+            <!-- .row event -->
+            <div class="row event">
                 <div class="col-sm-3 notAnimated animateBlock left label mobile">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         10k
                     </h2>
                 </div>
@@ -342,20 +342,20 @@
                         <span class="mile">Length: 10,000 Kilometers</span><br>
                         The 10K event starts and finishes in the Athletes Village. 
                         The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. 
-                        Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.
+                        Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crow eventd.
                     </p>
                 </div>
                 <!-- /.col-sm-4 -->
 
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
+                    <h2 class="display-4 text-center">
                         10k
                     </h2>
                 </div>
                 <!-- .col-sm-3 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row event -->
         </section>
         <!-- /.container-fluid -->
     </main>
