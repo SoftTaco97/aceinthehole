@@ -37,8 +37,8 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link <?php if($title == 'Events') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'events/'; ?>">
-                                    Events <?php if($title == 'Events') echo '<span class="sr-only">(current)</span>'; ?>
+                                <a class="nav-link <?php if($title == 'About') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'about/'; ?>">
+                                    About <?php if($title == 'About') echo '<span class="sr-only">(current)</span>'; ?>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -47,8 +47,8 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link <?php if($title == 'Course') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'course/'; ?>">
-                                    Course <?php if($title == 'Course') echo '<span class="sr-only">(current)</span>'; ?>
+                                <a class="nav-link <?php if($title == 'Events') echo ACTIVE; ?>" href="<?php echo FULL_PATH . 'events/'; ?>">
+                                    Events <?php if($title == 'Events') echo '<span class="sr-only">(current)</span>'; ?>
                                 </a>
                             </li>
                     </ul>

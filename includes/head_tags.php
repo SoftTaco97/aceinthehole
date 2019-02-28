@@ -15,8 +15,8 @@
         case PATH . 'faq/':
             $title = 'FAQs';
             break;
-        case PATH . 'course/':
-            $title = 'Course';
+        case PATH . 'about/':
+            $title = 'About';
             break;
     } 
     ?>
