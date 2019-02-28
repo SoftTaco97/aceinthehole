@@ -33,7 +33,7 @@
             <!-- .row -->
             <div class="row">
                 <!-- .col-sm-4 -->
-                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label mobile">
                     <h2 class="text-center">
                         Long Course - Swim
                     </h2>
@@ -41,13 +41,42 @@
                 <!-- .col-sm-4 -->
 
                 <!-- .col-sm-6 -->
-                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         <span class="mile">Length: 1.2 Miles</span><br>
                         Participants will make two counter-clockwise loops. 
                         Large buoys will mark the turn points. 
                         Kayakers will be positioned on the water to support the swimmers. 
                         Medical support will be present on the beach.
+                    </p>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                    <h2 class="text-center">
+                        Long Course - Swim
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
+                    <h2 class="text-center">
+                        Long Course - Bike
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                    <p class="text-center">
+                        <span class="mile">Length: 58 Miles</span><br>
+                        A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. 
+                        The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. 
                     </p>
                 </div>
                 <!-- /.col-sm-6 -->
@@ -59,42 +88,13 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label mobile">
                     <h2 class="text-center">
-                        Long Course - Bike
-                    </h2>
-                </div>
-                <!-- .col-sm-4 -->
-                <!-- .col-sm-6 -->
-                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
-                        <span class="mile">Length: 58 Miles</span><br>
-                        A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. 
-                        The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. 
-                    </p>
-                </div>
-                <!-- /.col-sm-6 -->
-
-                <!-- .col-sm-4 -->
-                <div class="col-sm-4 notAnimated animateBlock left label desktop">
-                    <h2 class="text-center">
-                        Long Course - Bike
-                    </h2>
-                </div>
-                <!-- .col-sm-4 -->
-            </div>
-            <!-- /.row -->
-
-            <!-- .row -->
-            <div class="row">
-                <!-- .col-sm-4 -->
-                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
-                    <h2 class="text-center">
                         Long Course - Run
                     </h2>
                 </div>
                 <!-- /.col-sm-4 -->
 
                 <!-- .col-sm-6 -->
-                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         <span class="mile">Length: 13.1 Miles</span><br>
                         A mostly flat loop course on widely paved bike paths that traverse through 
@@ -102,6 +102,14 @@
                     </p>
                 </div>
                 <!-- .col-sm-6 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                    <h2 class="text-center">
+                        Long Course - Run
+                    </h2>
+                </div>
+                <!-- /.col-sm-4 -->
             </div>
             <!-- /.row -->
 
