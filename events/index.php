@@ -14,7 +14,7 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
                     <h2 class="text-center">
-                        About The Event
+                        Long Course - Swim
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
@@ -22,9 +22,11 @@
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left paragraph">
                     <p class="text-center">
-                        The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation. 
-
-                        There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!
+                        <span class="mile">Length: 1.2 Miles</span><br>
+                        Participants will make two counter-clockwise loops. 
+                        Large buoys will mark the turn points. 
+                        Kayakers will be positioned on the water to support the swimmers. 
+                        Medical support will be present on the beach.
                     </p>
                 </div>
                 <!-- /.col-sm-6 -->
@@ -36,22 +38,16 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label mobile">
                     <h2 class="text-center">
-                        What to Bring
+                        Long Course - Bike
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
                     <p class="text-center">
-                        Watch the weather closely.  The show goes on no matter what the weather is doing. You must wear your chip timing piece during the entire event. <br><br>
-
-                        You will be given a band that will hold your chip timing piece around your ankle throughout the entire event.<strong>Be sure that it is snapped tightly.</strong><br><br>
-                        
-                        Be sure to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after each segment of the race.<br>
-                        <br>
-                        If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit otherwise, you will have a very difficult time getting off your wet suit.<br>
-                        <br>
-                        Remember to bring a change of clothing so you can enjoy the post-event festivities. 
+                        <span class="mile">Length: 58 Miles</span><br>
+                        A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. 
+                        The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. 
                     </p>
                 </div>
                 <!-- /.col-sm-6 -->
@@ -59,7 +55,7 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label desktop">
                     <h2 class="text-center">
-                        What to Bring
+                        Long Course - Bike
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
@@ -71,7 +67,7 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
                     <h2 class="text-center">
-                        What to Bring: Swim
+                        Long Course - Run
                     </h2>
                 </div>
                 <!-- /.col-sm-4 -->
@@ -79,7 +75,9 @@
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left paragraph">
                     <p class="text-center">
-                        Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries.  We will provide you with a swim cap but you will want to bring your own goggles.
+                        <span class="mile">Length: 13.1 Miles</span><br>
+                        A mostly flat loop course on widely paved bike paths that traverse through 
+                        and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).
                     </p>
                 </div>
                 <!-- .col-sm-6 -->
@@ -90,16 +88,18 @@
             <div class="row">
                 <div class="col-sm-4 notAnimated animateBlock left label mobile">
                     <h2 class="text-center">
-                        What to Bring: Bike
+                        Olympic - Swim
                     </h2>
                 </div>
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
                     <p class="text-center">
-                        A biking helmet is mandatory.<br>
-                        <br>
-                         You will also receive 2 stickers in your package with your race number on them.  The small sticker should go on the front of your helmet.  The bigger sticker will wrap around your bike frame.  Road or mountain bikes are acceptable.  For safety reasons, be sure to have end-caps on the end of your handle-bars.
+                        <span class="mile">Length: 1,500 Meters</span><br>
+                        Participants will make two counter-clockwise loops. 
+                        Large buoys will mark the turn points. 
+                        Kayakers will be positioned on the water to support the swimmers. 
+                        Medical support will be present on the beach.
                     </p>
                 </div>
                 <!-- /.col-sm-6 -->
@@ -107,7 +107,7 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left label desktop">
                     <h2 class="text-center">
-                        What to Bring: Bike
+                        Olympic - Swim
                     </h2>
                 </div>
                 <!-- .col-sm-4 -->
@@ -119,7 +119,7 @@
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
                     <h2 class="text-center">
-                        What to Bring: Run
+                        Olympic - Bike
                     </h2>
                 </div>
                 <!-- /.col-sm-4 -->
@@ -127,14 +127,141 @@
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left paragraph">
                     <p class="text-center">
-                        You must finish the race with your bib number on the front of you.  
-                        Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it.  
-                        Others pin it on a singlet that they put on once they finish the swim before they head out for the bike.  
-                        Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run.  
-                        Use whatever option feels best for you.
+                        <span class="mile">Length: 28 Miles</span><br>
+                        A scenic point-to-point course that travels over gently rolling hills. 
+                        The bike course will be marked with large directional signage and course marshals will be present at key intersections. 
                     </p>
                 </div>
                 <!-- .col-sm-6 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <div class="col-sm-4 notAnimated animateBlock left label mobile">
+                    <h2 class="text-center">
+                        Olympic - Run
+                    </h2>
+                </div>
+
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
+                    <p class="text-center">
+                        <span class="mile">Length: 10,000 Kilometers</span><br>
+                        A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful 
+                        and scenic destination resort (one hill total with a minimal elevation gain).
+                    </p>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                    <h2 class="text-center">
+                        Olympic - Run
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
+                    <h2 class="text-center">
+                        Sprint
+                    </h2>
+                </div>
+                <!-- /.col-sm-4 -->
+
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                    <p class="text-center">
+                        Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run. 
+                    </p>
+                </div>
+                <!-- .col-sm-6 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <div class="col-sm-4 notAnimated animateBlock left label mobile">
+                    <h2 class="text-center">
+                        Try-A-Tri
+                    </h2>
+                </div>
+
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
+                    <p class="text-center">
+                        This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. 
+                        The swim is a shorter, more manageable 1/4 mile distance, 
+                        (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride 
+                        (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course).
+                    </p>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                    <h2 class="text-center">
+                        Try-A-Tri
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
+                    <h2 class="text-center">
+                        Half Marathon
+                    </h2>
+                </div>
+                <!-- /.col-sm-4 -->
+
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                    <p class="text-center">
+                        <span class="mile">Length: 13.1 Miles</span><br>
+                        Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. 
+                        Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. 
+                        Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified.
+                    </p>
+                </div>
+                <!-- .col-sm-6 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <div class="col-sm-4 notAnimated animateBlock left label mobile">
+                    <h2 class="text-center">
+                        10k
+                    </h2>
+                </div>
+
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
+                    <p class="text-center">
+                        <span class="mile">Length: 10,000 Kilometers</span><br>
+                        The 10K event starts and finishes in the Athletes Village. 
+                        The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. 
+                        Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.
+                    </p>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                    <h2 class="text-center">
+                        10k
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
             </div>
             <!-- /.row -->
         </section>

@@ -59,7 +59,7 @@
             <!-- .row -->
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="text-center">H2 Heading <span class="year"></span></h2>
+                    <h2 class="text-center">Ace In the Hole MultiSport &copy; <?php echo date('Y'); ?></h2>
                 </div>
             </div>
             <!-- /.row -->
