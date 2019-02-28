@@ -170,6 +170,7 @@ footer section.container-fluid .row .col-sm-4 {
 }
 footer section.container-fluid .row .col-sm-3:nth-of-type(2) i,
 footer section.container-fluid .row .col-sm-4:nth-of-type(2) i {
+  color: #000;
   font-size: 175%;
   padding-left: .5em;
   padding-right: .5em;
@@ -178,6 +179,11 @@ footer section.container-fluid .row .col-sm-3:nth-of-type(2) i:hover,
 footer section.container-fluid .row .col-sm-4:nth-of-type(2) i:hover {
   cursor: pointer;
   color: #ff0000;
+}
+footer section.container-fluid .row .col-sm-3 h2,
+footer section.container-fluid .row .col-sm-4 h2 {
+  font-size: 175%;
+  padding: 1em;
 }
 footer section.container-fluid .row .col-sm-3 ul li a,
 footer section.container-fluid .row .col-sm-4 ul li a {
@@ -268,17 +274,25 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     margin-left: 0;
     margin-right: 0;
   }
-  footer section.container-fluid .row .col {
+  footer section.container-fluid .row .col-sm-3,
+  footer section.container-fluid .row .col-sm-4 {
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  footer section.container-fluid .row .col:nth-of-type(2) i {
+  footer section.container-fluid .row .col-sm-3:nth-of-type(2) i,
+  footer section.container-fluid .row .col-sm-4:nth-of-type(2) i {
     font-size: 175%;
     padding-left: .25em;
     padding-right: .25em;
   }
-  footer section.container-fluid .row .col p {
+  footer section.container-fluid .row .col-sm-3 p,
+  footer section.container-fluid .row .col-sm-4 p {
     text-align: left;
+  }
+  footer section.container-fluid .row .col-sm-3 h2,
+  footer section.container-fluid .row .col-sm-4 h2 {
+    padding: 0;
+    padding-bottom: 1em;
   }
 }
 /* Desktop Styles */

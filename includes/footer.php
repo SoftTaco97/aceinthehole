@@ -8,17 +8,19 @@
             <div class="row">
                 <!-- .col -->
                 <div class="col-sm-3 offset-md-1 animateBlock left notAnimated">
-                    <h2 class="text-center">H2 Heading</h2>
+                    <h2 class="text-center">Ace In The Hole MultiSport Events</h2>
                     <p class="text-center">
-                        paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text 
+                        Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, sexual orientations and cultural backgrounds. <br>
+                        <br>
+                        We offer Events for Every Body.
                     </p>
                 </div>
                 <!-- /.col -->
                 <!-- .col -->
                 <div class="col-sm-4 text-center animateBlock left notAnimated">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram"></i>
+                    <a href="facebook.com/aceinthehole"><i class="fab fa-facebook-square"></i></a>
+                    <a href="twitter.com/aceinthehole"><i class="fab fa-twitter-square"></i></a>
+                    <a href="instagram.com/aceinthehole"><i class="fab fa-instagram"></i></a>
                 </div>
                 <!-- /.col -->
                 <!-- .col -->

@@ -149,6 +149,7 @@ footer {
                 padding: 1em;
                 &:nth-of-type(2) {
                     i {
+                        color: @color2;
                         font-size: 175%;
                         padding-left: .5em;
                         padding-right: .5em;
@@ -157,6 +158,10 @@ footer {
                             color: @color3;
                         }
                     }
+                }
+                h2{
+                    font-size: 175%;
+                    padding: 1em;
                 }
                 ul {
                     li {
@@ -241,7 +246,7 @@ footer {
                 width: 100%;
                 margin-left: 0;
                 margin-right: 0;
-                .col {
+                .col-sm-3, .col-sm-4 {
                     margin-top: 1em;
                     margin-bottom: 1em;
                     &:nth-of-type(2) {
@@ -254,6 +259,10 @@ footer {
                     }
                     p {
                         text-align: left;
+                    }
+                    h2 {
+                        padding: 0;
+                        padding-bottom: 1em;
                     }
                 }
             }
