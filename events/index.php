@@ -12,6 +12,27 @@
             <!-- .row -->
             <div class="row">
                 <!-- .col-sm-4 -->
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left title">
+                    <h2 class="text-center">
+                        Long Course Triathlon
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Time: 7:00 AM</li>
+                        <li class="list-group-item">Cost: $240</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-6 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <!-- .col-sm-4 -->
                 <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
                     <h2 class="text-center">
                         Long Course - Swim
@@ -81,6 +102,27 @@
                     </p>
                 </div>
                 <!-- .col-sm-6 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- .row -->
+            <div class="row">
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left title">
+                    <h2 class="text-center">
+                        Olympic Triathlon
+                    </h2>
+                </div>
+                <!-- .col-sm-4 -->
+                <!-- .col-sm-6 -->
+                <div class="col-sm-6 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Time: 7:30 AM</li>
+                        <li class="list-group-item">Cost: $110</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-6 -->
             </div>
             <!-- /.row -->
 
@@ -166,34 +208,56 @@
 
             <!-- .row -->
             <div class="row">
-                <!-- .col-sm-4 -->
-                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 offset-md-1 notAnimated animateBlock left label">
                     <h2 class="text-center">
                         Sprint
                     </h2>
                 </div>
-                <!-- /.col-sm-4 -->
+                <!-- /.col-sm-3 -->
 
-                <!-- .col-sm-6 -->
-                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run. 
                     </p>
                 </div>
-                <!-- .col-sm-6 -->
+                <!-- .col-sm-4 -->
+
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Time: 7:15 AM</li>
+                        <li class="list-group-item">Cost: $50</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
             </div>
             <!-- /.row -->
 
             <!-- .row -->
             <div class="row">
-                <div class="col-sm-4 notAnimated animateBlock left label mobile">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 notAnimated animateBlock left label mobile">
                     <h2 class="text-center">
                         Try-A-Tri
                     </h2>
                 </div>
+                <!-- /.col-sm-3 -->
+
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 offset-md-1 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Time: 8:20 AM</li>
+                        <li class="list-group-item">Cost: $65</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
 
                 <!-- .col-sm-6 -->
-                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
+                <div class="col-sm-4 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. 
                         The swim is a shorter, more manageable 1/4 mile distance, 
@@ -203,28 +267,28 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <!-- .col-sm-4 -->
-                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 notAnimated animateBlock left label desktop">
                     <h2 class="text-center">
                         Try-A-Tri
                     </h2>
                 </div>
-                <!-- .col-sm-4 -->
+                <!-- .col-sm-3-->
             </div>
             <!-- /.row -->
 
             <!-- .row -->
             <div class="row">
-                <!-- .col-sm-4 -->
-                <div class="col-sm-4 offset-md-1 notAnimated animateBlock left label">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 offset-md-1 notAnimated animateBlock left label">
                     <h2 class="text-center">
                         Half Marathon
                     </h2>
                 </div>
-                <!-- /.col-sm-4 -->
+                <!-- /.col-sm-3 -->
 
-                <!-- .col-sm-6 -->
-                <div class="col-sm-6 notAnimated animateBlock left paragraph">
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         <span class="mile">Length: 13.1 Miles</span><br>
                         Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. 
@@ -232,20 +296,40 @@
                         Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified.
                     </p>
                 </div>
-                <!-- .col-sm-6 -->
+                <!-- .col-sm-4 -->
+
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Time: 8:20 AM</li>
+                        <li class="list-group-item">Cost: $65</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
             </div>
             <!-- /.row -->
 
             <!-- .row -->
             <div class="row">
-                <div class="col-sm-4 notAnimated animateBlock left label mobile">
+                <div class="col-sm-3 notAnimated animateBlock left label mobile">
                     <h2 class="text-center">
                         10k
                     </h2>
                 </div>
 
-                <!-- .col-sm-6 -->
-                <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 offset-md-1 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Time: 7:15 AM</li>
+                        <li class="list-group-item">Cost: $50</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left paragraph">
                     <p class="text-center">
                         <span class="mile">Length: 10,000 Kilometers</span><br>
                         The 10K event starts and finishes in the Athletes Village. 
@@ -253,15 +337,15 @@
                         Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.
                     </p>
                 </div>
-                <!-- /.col-sm-6 -->
+                <!-- /.col-sm-4 -->
 
-                <!-- .col-sm-4 -->
-                <div class="col-sm-4 notAnimated animateBlock left label desktop">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 notAnimated animateBlock left label desktop">
                     <h2 class="text-center">
                         10k
                     </h2>
                 </div>
-                <!-- .col-sm-4 -->
+                <!-- .col-sm-3 -->
             </div>
             <!-- /.row -->
         </section>
