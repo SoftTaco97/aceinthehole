@@ -46,7 +46,7 @@
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 1.2 Miles</span><br>
                         Participants will make two counter-clockwise loops. 
                         Large buoys will mark the turn points. 
@@ -77,7 +77,7 @@
                 <!-- .col-sm-4 -->
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 58 Miles</span><br>
                         A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. 
                         The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. 
@@ -99,7 +99,7 @@
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 13.1 Miles</span><br>
                         A mostly flat loop course on widely paved bike paths that traverse through 
                         and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).
@@ -148,7 +148,7 @@
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 1,500 Meters</span><br>
                         Participants will make two counter-clockwise loops. 
                         Large buoys will mark the turn points. 
@@ -180,7 +180,7 @@
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 28 Miles</span><br>
                         A scenic point-to-point course that travels over gently rolling hills. 
                         The bike course will be marked with large directional signage and course marshals will be present at key intersections. 
@@ -200,7 +200,7 @@
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 offset-md-1 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 10,000 Kilometers</span><br>
                         A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful 
                         and scenic destination resort (one hill total with a minimal elevation gain).
@@ -230,7 +230,7 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run. 
                     </p>
                 </div>
@@ -270,7 +270,7 @@
 
                 <!-- .col-sm-6 -->
                 <div class="col-sm-4 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. 
                         The swim is a shorter, more manageable 1/4 mile distance, 
                         (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride 
@@ -301,7 +301,7 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 13.1 Miles</span><br>
                         Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crow eventd. 
                         Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. 
@@ -342,7 +342,7 @@
 
                 <!-- .col-sm-4 -->
                 <div class="col-sm-4 notAnimated animateBlock left paragraph">
-                    <p class="text-center">
+                    <p class="lead text-center">
                         <span class="mile">Length: 10,000 Kilometers</span><br>
                         The 10K event starts and finishes in the Athletes Village. 
                         The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. 
@@ -358,6 +358,38 @@
                     </h2>
                 </div>
                 <!-- .col-sm-3 -->
+            </div>
+            <!-- /.row event -->
+
+            <!-- .row event -->
+            <div class="row event">
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 offset-md-1 notAnimated animateBlock left label">
+                    <h2 class="display-4 text-center">
+                        Splash 'N' Dash
+                    </h2>
+                </div>
+                <!-- /.col-sm-3 -->
+
+                <!-- .col-sm-4 -->
+                <div class="col-sm-4 notAnimated animateBlock left paragraph">
+                    <p class="lead text-center">
+                        The Splash 'N' Dash is an event for kids ages 6 - 15. <br>
+                        It is a 100 yard swim and a 50 meter dash. <br>
+                        It is free for kids who have an adult sign up for an event!
+                    </p>
+                </div>
+                <!-- .col-sm-4 -->
+
+                <!-- .col-sm-3 -->
+                <div class="col-sm-3 notAnimated animateBlock left">
+                    <ul class="list-group">
+                        <li class="list-group-item">Date: March 24the</li>
+                        <li class="list-group-item">Time: 12:00 PM</li>
+                        <li class="list-group-item">Cost: $25</li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
             </div>
             <!-- /.row event -->
         </section>

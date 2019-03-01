@@ -84,27 +84,3 @@ $(function(){
 
     weatherCall();
 });
-
-/*
-var url = 'https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&appid=e07d17f9691dc3fc3cf88db359501d0c';
-
-// https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&appid=e07d17f9691dc3fc3cf88db359501d0c
-
-$.ajax({
-  url: url,
-  dataType: "json",
-  type: "GET",
-  success: function(data) {
-    console.log('Received data:', data) // For testing
-  }
-});
-
- $.each(data.list, function(index, val) {
-    let d = new Date(index + 1);
-    let wf = "<ul class='text-center'>" 
-    wf += "<li class='lead'>Day " + + "</li> " // Day
-    wf += val.main.temp + "&degF" // Temperature
-    wf += "<img src='https://openweathermap.org/img/w/" + val.weather[0].icon + ".png'>" // Icon
-    wf += "</li>" // Closing paragraph tag
-    $(".weather").append(wf);
-}); */

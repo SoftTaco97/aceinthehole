@@ -14,7 +14,7 @@
                 <!-- /.weatherButton -->
                 <!-- #navbarNav -->
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="lead navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link <?php if($title == '') echo ACTIVE; ?>" href="<?php echo FULL_PATH; ?>">
                                 Home <?php if($title == '') echo '<span class="sr-only">(current)</span>'; ?>
@@ -44,7 +44,7 @@
                 </div>
                 <!-- /#navbarNav -->
                 <!-- #logo -->
-                <div id="logo">
+                <div class="lead" id="logo">
                     <a href="<?php echo FULL_PATH; ?>">Ace In the Hole</a>
                 </div>
             </div>

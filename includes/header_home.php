@@ -11,15 +11,15 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active imageOne">
                                 <h1 class="display-4">Ace In the Hole Multisport</h1>
-                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
+                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary lead cta">Register Now!</a>
                             </div>
                             <div class="carousel-item imageTwo">
                                 <h1 class="display-4">Ace In the Hole Multisport</h1>
-                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
+                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary lead cta">Register Now!</a>
                             </div>
                             <div class="carousel-item imageThree">
                                 <h1 class="display-4">Ace In the Hole Multisport</h1>
-                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta">Register Now!</a>
+                                <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary lead cta">Register Now!</a>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -37,7 +37,7 @@
                 <!-- #hero -->
                 <div id="hero" class="col-xs-12">
                     <h1 class="animateBlock notAnimated left">Ace In the Hole Multisport</h1>
-                    <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary cta animateBlock notAnimated right">Register Now!</a>
+                    <a href="<?php echo FULL_PATH . 'register/'; ?>" class="btn btn-primary lead cta animateBlock notAnimated right">Register Now!</a>
                 </div>
                 <!-- /#hero -->
             </div>

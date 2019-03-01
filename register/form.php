@@ -6,11 +6,14 @@ if($_SERVER["REQUEST_METHOD"] != "POST" || !isset($_POST['form'])) die('403 Acce
 
 /* DB Constants */
 
-
+const SERVER_NAME = "localhost";
+const USER_NAME = "jaredmar_ace_two";
+const PASSWORD = "PF%EUyEVp,;IOY6mC@TT072~";
+const DB_NAME = "jaredmar_ace_in_the_hole";
 
 /* Email Constants */
 
-const EMAIL_ADDRESS = 'no';
+const EMAIL_ADDRESS = 'jared.martinez@pcc.edu';
 
 function formValidation()
 {
