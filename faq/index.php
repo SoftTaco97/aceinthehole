@@ -13,20 +13,20 @@
     <main>
         <!-- .container-fluid -->
         <section class="container-fluid" id="faq">
-            <h3 class="text-center">What are the Rules?</h3>
+            <h3 class="display-4 text-center">What are the Rules?</h3>
             <div>
                 <p class="text-center">
                     We currently adhere to the USAT Rules for Triathlon & Duathlon.  
                     Important rules include no drafting, you <strong>must</strong> wear a helmet and music is <strong>ABSOLUTELY NOT</strong> allowed during the bike for obvious safety reasons.
                 </p>
             </div>
-            <h3 class="text-center ">Can I use a personal music device while cycling?</h3>
+            <h3 class="display-4 text-center ">Can I use a personal music device while cycling?</h3>
             <div>
                 <p class="text-center">
                     Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.
                 </p>
             </div>
-            <h3 class="text-center">Can I use a personal music device while running?</h3>
+            <h3 class="display-4 text-center">Can I use a personal music device while running?</h3>
             <div>
                 <p class="text-center">
                     During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair competitive environment and<br> assure athletes can hear all course marshal instructions. 
@@ -44,14 +44,14 @@
                     We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.
                 </p>
             </div>
-            <h3 class="text-center">Do I need to wear a wetsuit?</h3>
+            <h3 class="display-4 text-center">Do I need to wear a wetsuit?</h3>
             <div>
                 <p class="text-center">
                 No, you do not need to wear a wetsuit. <br><br>
                 Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor. 
                 </p>
             </div>
-            <h3 class="text-center">Do I have to use a road or racing bike?</h3>
+            <h3 class="display-4 text-center">Do I have to use a road or racing bike?</h3>
             <div>
                 <p class="text-center">
                     No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars. 

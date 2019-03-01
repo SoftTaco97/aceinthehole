@@ -58,7 +58,6 @@ header section.container-fluid div.row #hero h1,
 header section.container-fluid div.row #alt h1 {
   padding: .5em;
   text-align: center;
-  text-transform: uppercase;
   color: #fff;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;

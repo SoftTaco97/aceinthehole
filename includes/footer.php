@@ -8,7 +8,7 @@
             <div class="row">
                 <!-- .col -->
                 <div class="col-sm-3 offset-md-1 animateBlock left notAnimated">
-                    <h2 class="text-center">Ace In The Hole MultiSport Events</h2>
+                    <h2 class="display-4 text-center">Ace In The Hole MultiSport Events</h2>
                     <p class="text-center">
                         Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, sexual orientations and cultural backgrounds. <br>
                         <br>
