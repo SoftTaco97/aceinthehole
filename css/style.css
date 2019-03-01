@@ -163,7 +163,6 @@ main section .row .fb {
   padding-left: .5em;
   padding-right: 0;
   margin-top: 1em;
-  width: auto;
   max-width: 100%;
 }
 main section .row .btn-primary {
@@ -423,15 +422,22 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     margin: 0;
     border-radius: 0;
   }
+  header nav div.navbar-expand-lg div#navbarWeather .weather {
+    width: 100%;
+  }
   header nav div.navbar-expand-lg div#navbarWeather .weather ul {
     text-align: left !important;
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid lightgrey;
   }
   header nav div.navbar-expand-lg div#navbarWeather .weather .lead {
-    margin-right: 1em;
-    margin-left: 1em;
-    padding-right: 1em;
+    font-size: 75%;
+    padding: 2%;
+    margin: 0;
+    width: 20%;
+    float: left;
     border-bottom: none;
-    border-right: 1px solid lightgrey;
   }
   header nav div.navbar-expand-lg div#navbarNav {
     -webkit-box-shadow: 0 5px 18px #d3d3d3;
@@ -475,6 +481,20 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     background-color: #e60000;
     text-decoration: none;
   }
+  main section .row .fb,
+  main section .row .twit {
+    margin-top: 0 !important;
+  }
+  main section .row .fb h2,
+  main section .row .twit h2 {
+    padding-top: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  main section .row div.col-lg-4 h2 {
+    padding-top: 0;
+    margin-top: 1em;
+  }
   main #faq {
     padding: 2em;
   }
@@ -483,5 +503,8 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
   }
   main #faq p {
     padding: 4em;
+  }
+  footer {
+    margin-top: 3em;
   }
 }

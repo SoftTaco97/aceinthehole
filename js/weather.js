@@ -47,8 +47,8 @@ $(function(){
         });
         return [
             d.toDateString().replace(/\d{4,}/g, ''), 
-            '<i class="fas fa-temperature-high"></i> ' + maxTemp, 
-            '<i class="fas fa-temperature-low"></i> ' + minTemp, 
+            '<i class="fas fa-temperature-high"></i> ' + Math.floor(maxTemp), 
+            '<i class="fas fa-temperature-low"></i> ' + Math.floor(minTemp), 
             weather, 
             weatherIcon
         ];    

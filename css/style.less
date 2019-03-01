@@ -144,7 +144,6 @@ main {
                 padding-left: .5em;
                 padding-right: 0;
                 margin-top: 1em;
-                width: auto;
                 max-width: 100%;
             }
             .btn-primary {
@@ -413,15 +412,20 @@ footer {
                    margin: 0;
                    border-radius: 0;
                    .weather {
+                       width: 100%;
                        ul{
                            text-align: left !important;
+                           padding: 0;
+                           margin: 0;
+                           border-right: 1px solid lightgrey;
                        }
                        .lead{
-                            margin-right: 1em;
-                            margin-left: 1em;
-                            padding-right: 1em;
+                            font-size: 75%;
+                            padding: 2%;
+                            margin: 0;
+                            width: 20%;
+                            float: left;
                             border-bottom: none;
-                            border-right: 1px solid lightgrey;
                        }
                    }
                }
@@ -467,6 +471,24 @@ footer {
         }
     }
     main{
+        section {
+            .row {
+                .fb, .twit{
+                    margin-top: 0 !important;
+                    h2{
+                        padding-top: 0;
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                    }
+                }
+                div.col-lg-4{
+                    h2{
+                        padding-top: 0;
+                        margin-top: 1em;
+                    }
+                }
+            }
+        }
         #faq{
             padding: 2em;
             h3{
@@ -476,5 +498,8 @@ footer {
                 padding: 4em;
             }
         }
+    }
+    footer{
+        margin-top: 3em;
     }
 }

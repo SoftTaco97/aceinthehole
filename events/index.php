@@ -9,6 +9,10 @@
     <main>
         <!-- .container-fluid -->
         <section class="container-fluid" id="event">
+            <div class="alert alert-warning text-center" role="alert">
+                Water Temperature is expected to be between 62 and 66 degrees. The temperature will be taken on Friday, March 22nd and the morning of the race. Wetsuits are recommended.
+            </div>
+            
             <!-- .row event -->
             <div class="row event title">
                 <!-- .col-sm-4 -->
@@ -21,7 +25,7 @@
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left">
                     <ul class="list-group">
-                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Date: March 23rd</li>
                         <li class="list-group-item">Time: 7:00 AM</li>
                         <li class="list-group-item">Cost: $240</li>
                     </ul>
@@ -125,7 +129,7 @@
                 <!-- .col-sm-6 -->
                 <div class="col-sm-6 notAnimated animateBlock left">
                     <ul class="list-group">
-                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Date: March 23rd</li>
                         <li class="list-group-item">Time: 7:30 AM</li>
                         <li class="list-group-item">Cost: $110</li>
                     </ul>
@@ -235,7 +239,7 @@
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 notAnimated animateBlock left">
                     <ul class="list-group">
-                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Date: March 24th</li>
                         <li class="list-group-item">Time: 7:15 AM</li>
                         <li class="list-group-item">Cost: $50</li>
                     </ul>
@@ -257,7 +261,7 @@
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 offset-md-1 notAnimated animateBlock left">
                     <ul class="list-group">
-                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Date: March 24th</li>
                         <li class="list-group-item">Time: 8:20 AM</li>
                         <li class="list-group-item">Cost: $65</li>
                     </ul>
@@ -309,7 +313,7 @@
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 notAnimated animateBlock left">
                     <ul class="list-group">
-                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Date: March 23rd</li>
                         <li class="list-group-item">Time: 8:20 AM</li>
                         <li class="list-group-item">Cost: $65</li>
                     </ul>
@@ -329,7 +333,7 @@
                 <!-- .col-sm-3 -->
                 <div class="col-sm-3 offset-md-1 notAnimated animateBlock left">
                     <ul class="list-group">
-                        <li class="list-group-item">Date: </li>
+                        <li class="list-group-item">Date: March 23rd</li>
                         <li class="list-group-item">Time: 7:15 AM</li>
                         <li class="list-group-item">Cost: $50</li>
                     </ul>

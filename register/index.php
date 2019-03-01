@@ -13,6 +13,7 @@
             <div class="row">
                 <!-- .col-sm-10 -->
                 <div class="col-sm-10 text-center card card-body">
+                    <span class="lead form-text text-muted animateBlock notAnimated left">Find more about our events <a href="<?php echo FULL_PATH . 'events/'; ?>">here</a></span>
                     <!-- form -->
                     <form class="animateBlock notAnimated left" id="registrationForm">
                         <div class="form-group">
@@ -48,10 +49,10 @@
                             <label for="satEvent" class="sr-only">Saturday Events</label>
                             <select id="satEvent" class="form-control">
                                 <option value="">Choose a Saturday Event</option>
-                                <option value="Long Course Triathlon - Sat. 7:00am">Long Course Triathlon - Saturday 7:00am</option>
-                                <option value="10K - Sat. 7:15am">10K - Saturday 7:15am</option>
-                                <option value="Half marathon - Sat. 7:15am">Half marathon - Saturday 7:15am</option>
-                                <option value="Olympic Triathlon - Sat. 7:30am">Olympic Triathlon - Saturday 7:30am</option>
+                                <option value="Long Course Triathlon - Sat. 7:00am">Long Course Triathlon - Saturday 7:00am - $240</option>
+                                <option value="10K - Sat. 7:15am">10K - Saturday 7:15am - $50</option>
+                                <option value="Half marathon - Sat. 7:15am">Half marathon - Saturday 7:15am - $75</option>
+                                <option value="Olympic Triathlon - Sat. 7:30am">Olympic Triathlon - Saturday 7:30am - $110</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -66,9 +67,8 @@
                             <label for="sunEvent" class="sr-only">Sunday Event</label>
                             <select id="sunEvent" class="form-control">
                                 <option value="">Choose a Sunday Event</option>
-                                <option value="Sprint Triathlon - Sun. 8:00am">Sprint Triathlon - Sunday 8:00am</option>
-                                <option value="Try-a-Tri - Sun. 8:20am">Try-a-Tri - Sunday 8:20am</option>
-                                <option value="Splash n Dash - Sun. 12:00pm">Splash n Dash - Sunday 12:00pm</option>
+                                <option value="Sprint Triathlon - Sun. 8:00am">Sprint Triathlon - Sunday 8:00am - $90</option>
+                                <option value="Try-a-Tri - Sun. 8:20am">Try-a-Tri - Sunday 8:20am - $65</option>
                             </select>
                         </div>
                         <div class="form-group">
