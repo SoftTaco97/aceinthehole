@@ -118,6 +118,9 @@ header nav .active:hover {
 header nav #logo {
   display: none;
 }
+header nav .weather .lead:nth-of-type(5) {
+  border-bottom: 1px solid lightgray;
+}
 main section {
   padding-top: 1em;
 }
@@ -167,6 +170,14 @@ main section .row .btn-primary {
   background-color: #ff0000;
   border-color: #ff0000;
 }
+main section .event,
+main section .about {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-box-shadow: 0 5px 18px #d3d3d3;
+  -moz-box-shadow: 0 5px 18px #d3d3d3;
+  box-shadow: 0 5px 18px #d3d3d3;
+}
 main #faq {
   padding: 1em;
 }
@@ -175,6 +186,7 @@ main #faq p {
   padding-bottom: 0;
 }
 main #faq .ui-accordion-header {
+  border-radius: 0;
   background-color: #FFF !important;
   color: #ff0000 !important;
   font-size: 125%;
@@ -190,6 +202,14 @@ main #faq .ui-accordion-header-active {
   text-decoration: none;
   color: #FFF !important;
   border: 1px solid #ff0000;
+}
+main #faq .answer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0;
+  -webkit-box-shadow: 0 5px 18px #d3d3d3;
+  -moz-box-shadow: 0 5px 18px #d3d3d3;
+  box-shadow: 0 5px 18px #d3d3d3;
 }
 footer {
   margin-top: 1em;
@@ -348,12 +368,19 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
   main section .row .list-group {
     margin-top: 2em;
   }
-  main section .title h2 {
-    padding-bottom: 4em !important;
+  main section .event,
+  main section .about {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 90%;
+    margin-left: 2.5%;
   }
-  main section .title .list-group {
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: 1.6em;
+  main section .event:nth-of-type(even),
+  main section .about:nth-of-type(even) {
+    margin-left: 7.5%;
+  }
+  main #event ul {
+    padding-bottom: 2em;
   }
 }
 /* Desktop Styles */
@@ -396,9 +423,15 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     margin: 0;
     border-radius: 0;
   }
-  header nav div.navbar-expand-lg div#navbarWeather ul.weather li {
-    padding-left: 1em;
+  header nav div.navbar-expand-lg div#navbarWeather .weather ul {
+    text-align: left !important;
+  }
+  header nav div.navbar-expand-lg div#navbarWeather .weather .lead {
+    margin-right: 1em;
+    margin-left: 1em;
     padding-right: 1em;
+    border-bottom: none;
+    border-right: 1px solid lightgrey;
   }
   header nav div.navbar-expand-lg div#navbarNav {
     -webkit-box-shadow: 0 5px 18px #d3d3d3;
@@ -441,9 +474,6 @@ footer section.container-fluid .row:nth-of-type(2) .col-xs-12 h2 {
     transition: all .5s ease;
     background-color: #e60000;
     text-decoration: none;
-  }
-  main section .title h2 {
-    padding-bottom: 4em !important;
   }
   main #faq {
     padding: 2em;

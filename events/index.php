@@ -8,7 +8,7 @@
     <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
-        <section class="container-fluid">
+        <section class="container-fluid" id="event">
             <!-- .row event -->
             <div class="row event title">
                 <!-- .col-sm-4 -->
@@ -342,7 +342,7 @@
                         <span class="mile">Length: 10,000 Kilometers</span><br>
                         The 10K event starts and finishes in the Athletes Village. 
                         The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. 
-                        Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crow eventd.
+                        Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crow event.
                     </p>
                 </div>
                 <!-- /.col-sm-4 -->

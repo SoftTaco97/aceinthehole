@@ -53,23 +53,7 @@
             <div class="navbar navbar-expand-lg">
                 <!-- #navbarWeather -->
                 <div class="collapse navbar-collapse" id="navbarWeather">
-                    <ul class="navbar-nav weather">
-                        <li>
-                            Day 1 Weather <i class="fas fa-sun"></i>
-                        </li>
-                        <li>
-                            Day 2 Weather <i class="fas fa-cloud-rain"></i>
-                        </li>
-                        <li>
-                            Day 3 Weather <i class="fas fa-wind"></i>
-                        </li>
-                        <li>
-                            Day 4 Weather <i class="fas fa-cloud"></i>
-                        </li>
-                        <li>
-                            Day 5 Weather <i class="fas fa-snowflake"></i>
-                        </li>
-                    </ul>
+                    <div class="navbar-nav weather"></div>
                 </div>
                 <!-- /#navbarWeather -->
             </div>

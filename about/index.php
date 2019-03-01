@@ -8,7 +8,7 @@
     <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
-        <section class="container-fluid">
+        <section class="container-fluid" id="about">
             <!-- .row about -->
             <div class="row about">
                 <!-- .col-sm-4 -->

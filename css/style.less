@@ -90,6 +90,13 @@ header {
         #logo {
             display: none;
         }
+        .weather {
+            .lead{
+                &:nth-of-type(5){
+                    border-bottom: 1px solid lightgray;
+                }
+            }
+        }
     }
 }
 
@@ -145,6 +152,11 @@ main {
                 border-color: @color3;
             }
         }
+        .event, .about {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            .dropShadow(0, 5px, 18px, #d3d3d3);
+        }
     }
     #faq{
         padding: 1em;
@@ -153,6 +165,7 @@ main {
             padding-bottom: 0;
         }
         .ui-accordion-header{
+            border-radius: 0;
             background-color: @color1 !important;
             color: @color3 !important;
             font-size: 125%;
@@ -168,6 +181,12 @@ main {
             text-decoration: none;
             color: @color1 !important;
             border: 1px solid @color3;
+        }
+        .answer {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border-radius: 0;
+            .dropShadow(0, 5px, 18px, #d3d3d3);
         }
     }
 }
@@ -334,14 +353,19 @@ footer {
                     margin-top: 2em;
                 }
             }
-            .title {
-                h2{
-                    padding-bottom: 4em !important;
+            .event, .about {
+                margin-top: 2em;
+                margin-bottom: 2em;
+                width: 90%;
+                margin-left: 2.5%;
+                &:nth-of-type(even){
+                    margin-left: 7.5%;
                 }
-                .list-group{
-                    border-bottom: 1px solid lightgrey;
-                    padding-bottom: 1.6em;
-                }
+            }
+        }
+        #event {
+            ul {
+                padding-bottom: 2em;
             }
         }
     }
@@ -388,10 +412,16 @@ footer {
                    width: 100% !important;
                    margin: 0;
                    border-radius: 0;
-                   ul.weather {
-                       li {
-                           padding-left: 1em;
-                           padding-right: 1em;
+                   .weather {
+                       ul{
+                           text-align: left !important;
+                       }
+                       .lead{
+                            margin-right: 1em;
+                            margin-left: 1em;
+                            padding-right: 1em;
+                            border-bottom: none;
+                            border-right: 1px solid lightgrey;
                        }
                    }
                }
@@ -437,13 +467,6 @@ footer {
         }
     }
     main{
-        section{
-            .title{
-                h2{
-                    padding-bottom: 4em !important;
-                }
-            }
-        }
         #faq{
             padding: 2em;
             h3{

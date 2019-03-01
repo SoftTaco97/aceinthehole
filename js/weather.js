@@ -1,8 +1,9 @@
-/* $(function(){
+$(function(){
+
     let weatherObject;
     function weatherCall() {
         let xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&cnt=40&appid=e07d17f9691dc3fc3cf88db359501d0c', true);
+        xhr.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&appid=e07d17f9691dc3fc3cf88db359501d0c', true);
         xhr.send();
         xhr.onreadystatechange = function(){
             if (this.readyState === this.DONE){
@@ -11,6 +12,7 @@
             }
         }
     }
+
     function weatherFeed(){
         console.log(weatherObject);
         let days = [
@@ -25,19 +27,31 @@
             createDay(day);
         });
     }
+
     function getStats(value){
         let maxTemp = 0;
         let minTemp = 200;
         let weather = value[0].weather[0].main;
-        let date;
+        let weatherIcon = value[0].weather[0].icon + ".png";
+        let date = null;
+        let d;
         value.forEach(function(day){
             if(typeof day !== 'undefined'){
-                date = day.dt_txt.slice(0, 10);
+                if(date == null){
+                    date = day.dt_txt;
+                    d = new Date(date);
+                }
                 maxTemp = Math.max(day.main.temp_max, maxTemp);
                 minTemp = Math.min(day.main.temp_min, minTemp);
             }
         });
-        return ['Date: ' + date, 'High: ' + maxTemp, 'Low: ' + minTemp, 'Weather: ' + weather];    
+        return [
+            d.toDateString().replace(/\d{4,}/g, ''), 
+            '<i class="fas fa-temperature-high"></i> ' + maxTemp, 
+            '<i class="fas fa-temperature-low"></i> ' + minTemp, 
+            weather, 
+            weatherIcon
+        ];    
     }
 
     function getDay(value){
@@ -48,16 +62,49 @@
         }
         return stats;
     }
+
     function createDay(value){
         let weatherBox = document.querySelector('.weather');
         let day = document.createElement('ul');
-        value.forEach(function(info){
+        day.setAttribute('class', 'text-center')
+        value.forEach(function(info, index){
             let item = document.createElement('li');
-            item.innerText = info;
-            day.appendChild(item);
+            item.innerHTML = info;
+            item.setAttribute('class', 'lead');
+            if(index == 3){
+                img = document.createElement('img');
+                img.setAttribute('src', 'https://openweathermap.org/img/w/' + value[4]);
+                item.append(img);
+            } 
+            if(index != 4) day.append(item);
         });
-        // day.innerText = "Max: " + value[0] + " Min: " + value[1] + " Condition: " + value[2]; 
+        
         weatherBox.appendChild(day);
     }
+
     weatherCall();
+});
+
+/*
+var url = 'https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&appid=e07d17f9691dc3fc3cf88db359501d0c';
+
+// https://api.openweathermap.org/data/2.5/forecast?q=97035,us&units=imperial&appid=e07d17f9691dc3fc3cf88db359501d0c
+
+$.ajax({
+  url: url,
+  dataType: "json",
+  type: "GET",
+  success: function(data) {
+    console.log('Received data:', data) // For testing
+  }
+});
+
+ $.each(data.list, function(index, val) {
+    let d = new Date(index + 1);
+    let wf = "<ul class='text-center'>" 
+    wf += "<li class='lead'>Day " + + "</li> " // Day
+    wf += val.main.temp + "&degF" // Temperature
+    wf += "<img src='https://openweathermap.org/img/w/" + val.weather[0].icon + ".png'>" // Icon
+    wf += "</li>" // Closing paragraph tag
+    $(".weather").append(wf);
 }); */
