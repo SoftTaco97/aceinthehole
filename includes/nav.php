@@ -45,7 +45,7 @@
                 <!-- /#navbarNav -->
                 <!-- #logo -->
                 <div class="lead" id="logo">
-                    <a href="<?php echo FULL_PATH; ?>">Ace In the Hole</a>
+                    <a href="<?php echo FULL_PATH; ?>">Ace In the Hole MultiSport</a>
                 </div>
             </div>
             <!-- /.navbar-expand-lg -->

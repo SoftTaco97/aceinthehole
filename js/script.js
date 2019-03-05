@@ -10,7 +10,7 @@ $(function(){
     let $headerMargin;
     $('.weatherButton').click(function(){
         if($('nav.fixed-top').css('position') == 'fixed') {
-            position = document.documentElement.scrollTop;
+            position = window.pageYOffset;
             $headerMargin = $('header').css('margin-top');
             
             $("html, body").animate({ scrollTop: 0 }, "slow");

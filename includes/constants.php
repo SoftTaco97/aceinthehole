@@ -1,7 +1,7 @@
 <?php
 
-const PATH = '/cas222/site/';
+const PATH = '/cas222/';
 
-define('FULL_PATH', 'http://' . $_SERVER['SERVER_NAME'] . PATH);
+define('FULL_PATH', 'https://' . $_SERVER['SERVER_NAME'] . PATH);
 
 const ACTIVE = 'active';
