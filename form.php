@@ -4,12 +4,7 @@ if($_SERVER["REQUEST_METHOD"] != "POST" || !isset($_POST['form'])) die('403 Acce
 
 
 
-/* DB Constants */
 
-
-/* Email Constants */
-
-const EMAIL_ADDRESS = 'no';
 
 function formValidation()
 {

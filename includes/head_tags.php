@@ -23,7 +23,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Jared Martinez">
     <meta name="description" 
-    content="the Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community.">
+    content="The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running community.">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <!-- HTML Shiv -->
 
@@ -46,6 +46,6 @@
     <link href="<?php echo FULL_PATH . 'css/style.css'; ?>" rel="stylesheet">
 
     <!-- TITLE -->
-    <title><?php echo ($title != '')? $title: 'Ace In the Hole MultiSport'; ?></title>
+    <title><?php echo ($title != '')? $title: 'Ace In the Hole Multisport'; ?></title>
 
 

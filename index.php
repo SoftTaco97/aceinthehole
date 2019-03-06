@@ -21,7 +21,7 @@
                     <!-- .jumbotron -->
                     <div class="jumbotron">
                         <h2 class="display-4 animateBlock notAnimated left">About the Event</h2>
-                        <p class="lead animateBlock notAnimated left">The Annual Ace in the Hole MultiSport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.</p>
+                        <p class="lead animateBlock notAnimated left">The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.</p>
                         <p class="animateBlock notAnimated left">There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!</p>
                         <p class="lead animateBlock notAnimated left float-sm-left">
                             <a class="btn btn-primary btn-lg" href="<?php echo FULL_PATH . 'about/'; ?>" role="button">Learn More</a>

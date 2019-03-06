@@ -4,13 +4,7 @@ if($_SERVER["REQUEST_METHOD"] != "POST" || !isset($_POST['form'])) die('403 Acce
 
 
 
-/* DB Constants */
 
-
-
-/* Email Constants */
-
-const EMAIL_ADDRESS = 'no';
 
 function formValidation()
 {
@@ -90,7 +84,7 @@ function formEmail()
         ";
     }
 
-    if(!mail(EMAIL_ADDRESS, $subject, $body)) die(json_encode(array('status' => 500, 'message' => 'Message could not be sent. Please contact the website administrator. - Email')));
+    if(!mail(EMAIL_ADDRESS, $subject, $body)) die(json_encode(array('status' => 500, 'message' => 'Message could not be sent. Please contact the website administrator.')));
 }
 
 function formQuery()
