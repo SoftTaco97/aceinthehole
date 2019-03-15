@@ -42,7 +42,7 @@ $(function(){
         /* Sending the info to the server */
         $.ajax({
             data: data,
-            url: './form.php',
+            url: ($form == "contactForm")? './form.php': '../form.php',
             method: 'POST',
             success: function(response){
                 var data = JSON.parse(response); 

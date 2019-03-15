@@ -4,7 +4,17 @@ if($_SERVER["REQUEST_METHOD"] != "POST" || !isset($_POST['form'])) die('403 Acce
 
 
 
+/* DB Constants */
 
+const SERVER_NAME = "localhost"; // no need to change this
+
+const USER_NAME = "DATABASE USER - USERNAME HERE";
+const PASSWORD = "DATABASE USER - PASSWORD HERE";
+const DB_NAME = "DATABASE NAME HERE";
+
+/* Email Constants */
+
+const EMAIL_ADDRESS = 'YOUR EMAIL ADDRESS HERE';
 
 function formValidation()
 {
