@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include_once('../includes/head_tags.php'); ?>
+    <?php include_once('includes/head_tags.php'); ?>
 </head>
 <body>
-    <?php include_once('../includes/header.php'); ?>
+    <?php include_once('includes/header.php'); ?>
     <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
@@ -204,7 +204,7 @@
     </main>
     <!-- MAIN ENDS HERE -->
 
-    <?php include_once('../includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
 
 </body>
 

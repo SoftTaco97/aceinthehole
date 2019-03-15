@@ -18,6 +18,9 @@
         case PATH . 'about/':
             $title = 'About';
             break;
+        default: 
+            $title = '404';
+            break;
     } 
     ?>
     <meta charset="utf-8">

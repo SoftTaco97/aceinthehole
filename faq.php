@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include_once('../includes/head_tags.php'); ?>
+    <?php include_once('includes/head_tags.php'); ?>
 
     <!-- jQuery UI -->
     <link href="<?php echo FULL_PATH . 'css/jquery-ui.min.css'; ?>" rel="stylesheet">
     <link href="<?php echo FULL_PATH . 'css/jquery-ui.theme.min.css'; ?>" rel="stylesheet">
 </head>
 <body>
-    <?php include_once('../includes/header.php'); ?>
+    <?php include_once('includes/header.php'); ?>
     <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
@@ -62,7 +62,7 @@
     </main>
     <!-- MAIN ENDS HERE -->
     <!-- jQuery UI -->
-    <?php include_once('../includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
     <script src="<?php echo FULL_PATH . '/js/jquery-ui.min.js'; ?>"></script>
     <script>
         $(function(){

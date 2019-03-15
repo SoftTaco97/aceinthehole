@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include_once('../includes/head_tags.php'); ?>
+    <?php include_once('includes/head_tags.php'); ?>
 </head>
 <body>
-    <?php include_once('../includes/header.php'); ?>
+    <?php include_once('includes/header.php'); ?>
     <!-- MAIN STARTS HERE -->
     <main>
         <!-- .container-fluid -->
@@ -58,7 +58,7 @@
                         <div class="form-group">
                             <label for="satRegisterType" class="sr-only">Athlete or Volunteer?</label>
                             <select id="satRegisterType" class="form-control">
-                                <option value="">Interested in being...</option>
+                                <option value="">Interested in being.</option>
                                 <option value="Athlete">Athlete</option>
                                 <option value="Volunteer">Volunteer</option>
                             </select>
@@ -74,7 +74,7 @@
                         <div class="form-group">
                             <label for="sunRegisterType" class="sr-only">Athlete or Volunteer?</label>
                             <select id="sunRegisterType" class="form-control">
-                                <option value="">Interested in being...</option>
+                                <option value="">Interested in being.</option>
                                 <option value="Athlete">Athlete</option>
                                 <option value="Volunteer">Volunteer</option>
                             </select>
@@ -95,7 +95,7 @@
         <!-- /.container-fluid -->
     </main>
     <!-- MAIN ENDS HERE -->
-    <?php include_once('../includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
     <script src="<?php echo FULL_PATH . 'js/form.js'; ?>"></script>
 </body>
 </html>
